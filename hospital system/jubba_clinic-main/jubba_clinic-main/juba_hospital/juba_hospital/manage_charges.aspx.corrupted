@@ -1,0 +1,307 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true"
+    CodeBehind="manage_charges.aspx.cs" Inherits="juba_hospital.manage_charges" %>
+
+    <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+        <link href="datatables/datatables.min.css" rel="stylesheet" />
+        <style>
+            .dataTables_wrapper .dataTables_filter {
+                float: right;
+                text-align: right;
+            }
+
+            .dataTables_wrapper .dataTables_length {
+                float: left;
+            }
+
+            .dataTables_wrapper .dataTables_paginate {
+                float: right;
+                text-align: right;
+            }
+
+            .dataTables_wrapper .dataTables_info {
+                float: left;
+            }
+
+            #datatable {
+                width: 100%;
+                margin: 20px 0;
+                font-size: 14px;
+            }
+
+            #datatable th,
+            #datatable td {
+                text-align: center;
+                vertical-align: middle;
+            }
+
+            #datatable th {
+                background-color: #007bff;
+                color: white;
+                font-weight: bold;
+            }
+
+            #datatable td {
+                background-color: #f8f9fa;
+            }
+
+            .btn-primary {
+                background-color: #007bff;
+                border-color: #007bff;
+            }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+                border-color: #004085;
+            }
+
+            .btn-success {
+                background-color: #28a745;
+                border-color: #28a745;
+            }
+
+            .btn-success:hover {
+                background-color: #218838;
+                border-color: #1e7e34;
+            }
+
+            .badge-active {
+                background-color: #28a745;
+            }
+
+            .badge-inactive {
+                background-color: #dc3545;
+            }
+        </style>
+    </asp:Content>
+
+    <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+        <!-- Add/Edit Modal -->
+        <div class="modal fade" id="chargeModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitle">Add Charge</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="hidden" id="chargeId" />
+
+                        <div class="mb-3">
+                            <label class="form-label">Charge Type *</label>
+                            <select class="form-control" id="chargeType" required>
+                                <option value="">Select Type</option>
+                                <option value="Registration">Registration</option>
+                                <option value="Lab">Lab</option>
+                                <option value="Xray">Xray</option>
+                            </select>
+                            <small id="typeError" class="text-danger"></small>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Charge Name *</label>
+                            <input type="text" class="form-control" id="chargeName"
+                                placeholder="e.g., Patient Registration Fee">
+                            <small id="nameError" class="text-danger"></small>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Amount *</label>
+                            <input type="number" step="0.01" class="form-control" id="chargeAmount" placeholder="0.00">
+                            <small id="amountError" class="text-danger"></small>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Status</label>
+                            <select class="form-control" id="chargeActive">
+                                <option value="1">Active</option>
+                                <option value="0">Inactive</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" onclick="saveCharge()" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Edit/Delete Modal -->
+        <div class="modal fade" id="editModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Edit/Delete Charge</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="hidden" id="editChargeId" />
+
+                        <div class="mb-3">
+                            <label class="form-label">Charge Type *</label>
+                            <select class="form-control" id="editChargeType">
+                                <option value="Registration">Registration</option>
+                                <option value="Lab">Lab</option>
+                                <option value="Xray">Xray</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Charge Name *</label>
+                            <input type="text" class="form-control" id="editChargeName">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Amount *</label>
+                            <input type="number" step="0.01" class="form-control" id="editChargeAmount">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Status</label>
+                            <select class="form-control" id="editChargeActive">
+                                <option value="1">Active</option>
+                                <option value="0">Inactive</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" onclick="deleteCharge()" class="btn btn-danger">Delete</button>
+                        <button type="button" onclick="updateCharge()" class="btn btn-primary">Update</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Manage Charges</h4>
+                        <div class="row">
+                            <div class="col-9"></div>
+                            <div class="col-3">
+                                <button type="button" id="addBtn" class="btn btn-primary">Add Charge</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <table class="display nowrap" style="width:100%" id="datatable">
+                            <thead>
+                                <tr>
+                                    <th>Charge Type</th>
+                                    <th>Charge Name</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                    <th>Date Added</th>
+                                    <th>Operation</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>Charge Type</th>
+                                    <th>Charge Name</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                    <th>Date Added</th>
+                                    <th>Operation</th>
+                                </tr>
+                            </tfoot>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        var amount = row.find("td:eq(2)").text().replace(/[^0-9.]/g, '');
+        var status = row.find("td:eq(3)").text().trim() === "Active" ? "1" : "0";
+
+        $("#editChargeId").val(id);
+        $("#editChargeType").val(type);
+        $("#editChargeName").val(name);
+        $("#editChargeAmount").val(amount);
+        $("#editChargeActive").val(status);
+        $('#editModal').modal('show');
+        });
+
+        $("#addBtn").click(function () {
+        $("#chargeId").val("");
+        $("#chargeType").val("");
+        $("#chargeName").val("");
+        $("#chargeAmount").val("");
+        $("#chargeActive").val("1");
+        $("#modalTitle").text("Add Charge");
+        $('#chargeModal').modal('show');
+        });
+
+
+        function loadCharges() {
+        $.ajax({
+        url: 'manage_charges.aspx/GetCharges',
+        type: 'POST',
+        contentType: "application/json",
+        dataType: "json",
+        success: function (response) {
+        console.log("GetCharges response:", response);
+
+        // Destroy existing DataTable if it exists
+        if ($.fn.DataTable.isDataTable('#datatable')) {
+        $('#datatable').DataTable().destroy();
+        }
+
+        $("#datatable tbody").empty();
+        if (response.d && response.d.length > 0) {
+        console.log("Found " + response.d.length + " charges");
+        for (var i = 0; i < response.d.length; i++) { var statusBadge=response.d[i].is_active=="1"
+            ? '<span class="badge badge-active">Active</span>' : '<span class="badge badge-inactive">Inactive</span>' ;
+            $("#datatable tbody").append( "<tr>" + "<td>" + response.d[i].charge_type + "</td>" + "<td>" +
+            response.d[i].charge_name + "</td>" + "<td>" + parseFloat(response.d[i].amount).toFixed(2) + "</td>"
+            + "<td>" + statusBadge + "</td>" + "<td>" + response.d[i].date_added + "</td>"
+            + "<td><button class='edit-btn btn btn-success' data-id='" + response.d[i].charge_config_id
+            + "'>Edit</button></td>" + "</tr>" ); } } else { console.log("No charges found in response"); } //
+            Reinitialize DataTable $('#datatable').DataTable({ dom: 'Bfrtip' , buttons: ['excelHtml5'] }); }, error:
+            function (response) { console.error("Error loading charges:", response); alert("Error loading charges: " + response.responseText);
+                    }
+                });
+            }
+
+            function saveCharge() {
+                var id = $(" #chargeId").val() || "0" ; var type=$("#chargeType").val(); var
+            name=$("#chargeName").val(); var amount=$("#chargeAmount").val(); var active=$("#chargeActive").val(); if
+            (!type || !name || !amount) { Swal.fire('Validation Error', 'Please fill all required fields' , 'error' );
+            return; } $.ajax({ url: 'manage_charges.aspx/SaveCharge' , data: JSON.stringify({ id: id, charge_type: type,
+            charge_name: name, amount: amount, is_active: active }), type: 'POST' , contentType: "application/json" ,
+            dataType: "json" , success: function (response) { if (response.d==='true' ) {
+            $('#chargeModal').modal('hide'); Swal.fire('Success!', 'Charge saved successfully' , 'success' );
+            loadCharges(); } else { Swal.fire('Error', response.d, 'error' ); } }, error: function (response) {
+            alert("Error: " + response.responseText);
+                    }
+                });
+            }
+
+            function updateCharge() {
+                var id = $(" #editChargeId").val(); var type=$("#editChargeType").val(); var
+            name=$("#editChargeName").val(); var amount=$("#editChargeAmount").val(); var
+            active=$("#editChargeActive").val(); $.ajax({ url: 'manage_charges.aspx/SaveCharge' , data: JSON.stringify({
+            id: id, charge_type: type, charge_name: name, amount: amount, is_active: active }), type: 'POST' ,
+            contentType: "application/json" , dataType: "json" , success: function (response) { if (response.d==='true'
+            ) { $('#editModal').modal('hide'); Swal.fire('Success!', 'Charge updated successfully' , 'success' );
+            loadCharges(); } else { Swal.fire('Error', response.d, 'error' ); } }, error: function (response) {
+            alert("Error: " + response.responseText);
+                    }
+                });
+            }
+
+            function deleteCharge() {
+                var id = $(" #editChargeId").val(); if (!confirm('Are you sure you want to delete this charge?'))
+            return; $.ajax({ url: 'manage_charges.aspx/DeleteCharge' , data: JSON.stringify({ id: id }), type: 'POST' ,
+            contentType: "application/json" , dataType: "json" , success: function (response) { if (response.d==='true'
+            ) { $('#editModal').modal('hide'); Swal.fire('Success!', 'Charge deleted successfully' , 'success' );
+            loadCharges(); } else { Swal.fire('Error', response.d, 'error' ); } }, error: function (response) {
+            alert("Error: " + response.responseText);
+                    }
+                });
+            }
+        </script>
+    </asp:Content>

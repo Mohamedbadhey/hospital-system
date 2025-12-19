@@ -1,0 +1,127 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Web;
+using System.Web.Services;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using static juba_hospital.waitingpatients;
+
+namespace juba_hospital
+{
+    public partial class add_lab : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        [WebMethod]
+        public static string updatepatientlap(string id)
+        {
+            string cs = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
+
+            try
+            {
+                using (SqlConnection con = new SqlConnection(cs))
+                {
+                    con.Open();
+
+                    // Update patient table
+                    string patientUpdateQuery = "UPDATE [prescribtion] SET " +
+                                                "[status] = 4 " +
+                                              "WHERE [prescid] = @id";
+
+                    using (SqlCommand cmd = new SqlCommand(patientUpdateQuery, con))
+                    {
+
+                        cmd.Parameters.AddWithValue("@id", id);
+
+
+                        cmd.ExecuteNonQuery();
+                    }
+
+
+                }
+
+                return "true";
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions
+                throw new Exception("Error updating patient", ex);
+            }
+        }
+        [WebMethod]
+        public static ptclass[] lapwait(string search)
+        {
+            List<ptclass> details = new List<ptclass>();
+            string cs = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
+
+            using (SqlConnection con = new SqlConnection(cs))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand(@"
+      SELECT 
+    patient.full_name, 
+    patient.sex,
+    patient.location,
+    patient.phone,
+    CONVERT(date, patient.date_registered) AS date_registered,
+    doctor.doctortitle,
+    patient.patientid,
+    prescribtion.prescid,
+    doctor.doctorid,
+    patient.amount,
+    CONVERT(date, patient.dob) AS dob,
+    CASE 
+        WHEN prescribtion.status = 0 THEN 'waiting'
+        WHEN prescribtion.status = 1 THEN 'processed'
+        WHEN prescribtion.status = 2 THEN 'pending-xray'
+        WHEN prescribtion.status = 3 THEN 'X-ray-Processed'
+    END AS status
+FROM 
+    patient
+INNER JOIN 
+    prescribtion ON patient.patientid = prescribtion.patientid
+INNER JOIN 
+    doctor ON prescribtion.doctorid = doctor.doctorid
+WHERE 
+    doctor.doctorid = @search
+    AND prescribtion.status = 0 ;
+
+ ", con);
+                cmd.Parameters.AddWithValue("@search", search);
+
+
+                using (SqlDataReader dr = cmd.ExecuteReader())
+                {
+                    while (dr.Read())
+                    {
+                        ptclass field = new ptclass();
+
+
+                        field.full_name = dr["full_name"].ToString();
+                        field.sex = dr["sex"].ToString();
+                        field.location = dr["location"].ToString();
+                        field.phone = dr["phone"].ToString();
+                        field.date_registered = Convert.ToDateTime(dr["date_registered"]).ToString("yyyy-MM-dd");
+                        field.doctortitle = dr["doctortitle"].ToString();
+                        field.doctorid = dr["doctorid"].ToString();
+                        field.patientid = dr["patientid"].ToString();
+                        field.prescid = dr["prescid"].ToString();
+                        field.amount = dr["amount"].ToString();
+                        field.dob = Convert.ToDateTime(dr["dob"]).ToString("yyyy-MM-dd");
+                        field.status = dr["status"].ToString();
+
+                        details.Add(field);
+                    }
+                }
+            }
+
+            return details.ToArray();
+        }
+    }
+}

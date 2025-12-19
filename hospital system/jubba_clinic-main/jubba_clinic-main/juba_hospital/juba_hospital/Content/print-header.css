@@ -1,0 +1,436 @@
+/* ============================================
+   PRINT HEADER STYLES
+   Jubba Hospital Management System
+   ============================================ */
+
+/* ============================================
+   1. PRINT HEADER LAYOUT
+   ============================================ */
+.print-header {
+    display: block !important;
+    /* Visible on BOTH screen and print */
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #2563eb;
+}
+
+.print-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.print-logo {
+    flex-shrink: 0;
+}
+
+.print-logo img {
+    max-width: 120px;
+    max-height: 120px;
+    height: auto;
+}
+
+.print-info {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.print-info h1 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+    color: #1e293b;
+    font-weight: 700;
+}
+
+.print-info h2 {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+    color: #475569;
+    font-weight: 600;
+}
+
+.print-info p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #64748b;
+}
+
+.print-info .tagline {
+    font-style: italic;
+    color: #2563eb;
+    margin-top: 8px;
+}
+
+/* ============================================
+   2. PRINT DOCUMENT TITLE
+   ============================================ */
+.print-document-title {
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    background: #f8fafc;
+    border-radius: 8px;
+}
+
+.print-document-title h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #1e293b;
+    font-weight: 600;
+}
+
+.print-document-title .document-date {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #64748b;
+}
+
+/* ============================================
+   3. PRINT FOOTER
+   ============================================ */
+.print-footer {
+    display: none;
+    /* Hidden on screen, visible in print */
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #e2e8f0;
+    text-align: center;
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+.print-footer p {
+    margin: 5px 0;
+}
+
+/* ============================================
+   4. PRINT PAGE BREAKS
+   ============================================ */
+.page-break {
+    page-break-after: always;
+}
+
+.avoid-break {
+    page-break-inside: avoid;
+}
+
+/* ============================================
+   5. PRINT MEDIA QUERIES
+   ============================================ */
+@media print {
+
+    /* Show print header and footer */
+    .print-header,
+    .print-footer {
+        display: block !important;
+    }
+
+    /* Hide non-printable elements */
+    .no-print,
+    .btn,
+    button,
+    .sidebar,
+    .main-header,
+    .footer,
+    nav,
+    .navbar,
+    .card-action,
+    .form-group button,
+    .dropdown,
+    .modal,
+    .alert {
+        display: none !important;
+    }
+
+    /* Reset page layout */
+    body {
+        margin: 0;
+        padding: 20px;
+        background: white !important;
+        color: black !important;
+        font-size: 12pt;
+    }
+
+    .container,
+    .main-panel,
+    .page-inner {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Optimize tables for print */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        page-break-inside: auto;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tfoot {
+        display: table-footer-group;
+    }
+
+    tr {
+        page-break-inside: avoid;
+        page-break-after: auto;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        border: 1px solid #ddd;
+        font-size: 11pt;
+    }
+
+    th {
+        background-color: #f8fafc !important;
+        font-weight: bold;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* Card styles for print */
+    .card {
+        box-shadow: none !important;
+        border: 1px solid #ddd !important;
+        page-break-inside: avoid;
+    }
+
+    .card-header {
+        background-color: #f8fafc !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* Ensure colors print */
+    * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* Page margins */
+    @page {
+        margin: 1.5cm;
+        size: A4;
+    }
+
+    /* Print header on every page */
+    .print-header {
+        position: running(header);
+    }
+
+    /* Optimize font sizes */
+    h1 {
+        font-size: 20pt;
+    }
+
+    h2 {
+        font-size: 16pt;
+    }
+
+    h3 {
+        font-size: 14pt;
+    }
+
+    h4 {
+        font-size: 12pt;
+    }
+
+    p,
+    td,
+    th {
+        font-size: 11pt;
+    }
+
+    /* Remove shadows and rounded corners */
+    .card,
+    .summary-card,
+    .alert {
+        border-radius: 0 !important;
+        box-shadow: none !important;
+    }
+
+    /* Ensure images print */
+    img {
+        max-width: 100%;
+        page-break-inside: avoid;
+    }
+
+    /* Print links */
+    a[href]:after {
+        content: none;
+        /* Don't print URLs */
+    }
+}
+
+/* ============================================
+   6. PRINT PREVIEW MODE (Optional)
+   ============================================ */
+.print-preview-mode {
+    background: white;
+    max-width: 210mm;
+    /* A4 width */
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.print-preview-mode .print-header,
+.print-preview-mode .print-footer {
+    display: block;
+}
+
+.print-preview-mode .no-print {
+    display: none;
+}
+
+/* ============================================
+   7. INVOICE/RECEIPT SPECIFIC STYLES
+   ============================================ */
+.invoice-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.invoice-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.invoice-date {
+    font-size: 14px;
+    color: #64748b;
+}
+
+.invoice-total {
+    font-size: 24px;
+    font-weight: bold;
+    color: #059669;
+    text-align: right;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 2px solid #e2e8f0;
+}
+
+@media print {
+    .invoice-total {
+        background-color: #f0fdf4 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+
+/* ============================================
+   8. PATIENT REPORT SPECIFIC STYLES
+   ============================================ */
+.patient-info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.patient-info-item {
+    padding: 10px;
+    background: #f8fafc;
+    border-radius: 6px;
+}
+
+.patient-info-item label {
+    font-weight: 600;
+    color: #475569;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.patient-info-item span {
+    color: #1e293b;
+}
+
+@media print {
+    .patient-info-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .patient-info-item {
+        background-color: #f8fafc !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+
+/* ============================================
+   9. SIGNATURE SECTION
+   ============================================ */
+.signature-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    page-break-inside: avoid;
+}
+
+.signature-box {
+    width: 45%;
+    text-align: center;
+}
+
+.signature-line {
+    border-top: 2px solid #1e293b;
+    margin-top: 60px;
+    padding-top: 10px;
+}
+
+.signature-label {
+    font-weight: 600;
+    color: #475569;
+}
+
+/* ============================================
+   10. WATERMARK (Logo Image)
+   ============================================ */
+.print-watermark {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    opacity: 0.15;
+    z-index: 0;
+    pointer-events: none;
+    display: block;
+}
+
+.print-watermark img {
+    width: 350px;
+    height: auto;
+    max-width: 70vw;
+}
+
+@media print {
+    .print-watermark {
+        display: block !important;
+        opacity: 0.12 !important;
+        position: fixed !important;
+        /* This ensures watermark appears on every printed page */
+        page-break-inside: avoid;
+    }
+    
+    .print-watermark img {
+        width: 400px;
+        height: auto;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    /* Ensure watermark repeats on each page */
+    @page {
+        size: auto;
+    }
+}

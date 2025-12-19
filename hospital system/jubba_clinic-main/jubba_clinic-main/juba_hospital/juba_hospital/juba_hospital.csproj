@@ -1,0 +1,1723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B5DA687-2DDD-420F-BAEF-B081229BBD07}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>juba_hospital</RootNamespace>
+    <AssemblyName>juba_hospital</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44326</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.bootstrap">
+      <HintPath>..\packages\AspNet.ScriptManager.bootstrap.3.4.1\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.3.4.1\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="addlabuser.aspx" />
+    <Content Include="addxrayuser.aspx" />
+    <Content Include="add_doctor.aspx" />
+    <Content Include="add_job_title.aspx" />
+    <Content Include="add_lab.aspx" />
+    <Content Include="add_bed_charges.aspx" />
+    <Content Include="add_lab_charges.aspx" />
+    <Content Include="add_medicine_units.aspx" />
+    <Content Include="Add_patients.aspx" />
+    <Content Include="add_patientsdoctor.aspx" />
+    <Content Include="add_registre.aspx" />
+    <Content Include="add_xray.aspx" />
+    <Content Include="add_xray_charges.aspx" />
+    <Content Include="add_pharmacy_user.aspx" />
+    <Content Include="add_medicine.aspx" />
+    <Content Include="bin\WebGrease.dll" />
+    <Content Include="Content\print-header.css" />
+    <Content Include="Content\responsive.css" />
+    <Content Include="Files\vafmadow.png" />
+    <Content Include="hospital_settings.aspx" />
+    <Content Include="inpatient_full_report.aspx" />
+    <Content Include="lab_comprehensive_report.aspx" />
+    <Content Include="lab_reference_guide.aspx" />
+    <Content Include="manage_lab_test_prices.aspx" />
+    <Content Include="medicine_inventory.aspx" />
+    <Content Include="dispense_medication.aspx" />
+    <Content Include="low_stock.aspx" />
+    <Content Include="pharmacy_dashboard.aspx" />
+    <Content Include="pharmacy_pos.aspx" />
+    <Content Include="pharmacy_pos_database.sql" />
+    <Content Include="pharmacy_sales_history.aspx" />
+    <Content Include="pharmacy_return_transaction.aspx" />
+    <Content Include="pharmacy_customers.aspx" />
+    <Content Include="expired_medicines.aspx" />
+    <Content Include="print_expired_medicines_report.aspx" />
+    <Content Include="print_low_stock_report.aspx" />
+    <Content Include="print_sales_report.aspx" />
+    <Content Include="print_lab_revenue.aspx" />
+    <Content Include="print_registration_revenue.aspx" />
+    <Content Include="print_lab_revenue_report.aspx" />
+    <Content Include="print_pharmacy_revenue_report.aspx" />
+    <Content Include="print_bed_revenue_report.aspx" />
+    <Content Include="print_delivery_revenue_report.aspx" />
+    <Content Include="print_all_outpatients.aspx" />
+    <Content Include="print_all_inpatients.aspx" />
+    <Content Include="print_all_discharged.aspx" />
+    <Content Include="print_all_patients_by_charge.aspx" />
+    <Content Include="admin_profile.aspx" />
+    <Content Include="doctor_profile.aspx" />
+    <Content Include="lab_profile.aspx" />
+    <Content Include="pharmacy_profile.aspx" />
+    <Content Include="register_profile.aspx" />
+    <Content Include="user_profile.aspx" />
+    <Content Include="xray_profile.aspx" />
+    <Content Include="pharmacy_invoice.aspx" />
+    <Content Include="pharmacy_database_tables.sql" />
+    <Content Include="ADD_LAB_REORDER_TRACKING.sql" />
+    <Content Include="ADD_LAB_ORDER_LINK.sql" />
+    <Content Include="DOCTOR_INPATIENT_IMPROVEMENTS.md" />
+    <Content Include="MEDICATION_AND_LAB_REORDER_SYSTEM.md" />
+    <Content Include="QUICK_START_MEDICATION_LAB_REORDER.md" />
+    <Content Include="COMPLETE_ENHANCEMENTS_SUMMARY.md" />
+    <Content Include="FILES_ADDED_TO_PROJECT.md" />
+    <Content Include="COMPILATION_ERROR_FIXED.md" />
+    <Content Include="READY_TO_BUILD_AND_DEPLOY.md" />
+    <Content Include="DATABASE_MIGRATION_GUIDE.md" />
+    <Content Include="RUN_THESE_MIGRATIONS.md" />
+    <Content Include="FIXED_RUN_THIS_MIGRATION.md" />
+    <Content Include="LAB_ORDER_SYSTEM_COMPLETE_FIX.md" />
+    <Content Include="LAB_CHARGE_WORKFLOW.md" />
+    <Content Include="COMPLETE_CHARGE_SYSTEM_SUMMARY.md" />
+    <Content Include="CORRECT_LAB_CHARGE_WORKFLOW.md" />
+    <Content Include="FINAL_LAB_CHARGE_WORKFLOW.md" />
+    <Content Include="UNIFIED_LAB_ORDER_SYSTEM.md" />
+    <Content Include="EDITABLE_LAB_ORDERS_IMPLEMENTED.md" />
+    <Content Include="ADD_REFERENCE_ID_TO_CHARGES.sql" />
+    <Content Include="CHARGE_LINKING_SYSTEM_COMPLETE.md" />
+    <Content Include="PAYMENT_SYSTEM_FINAL_FIX.md" />
+    <Content Include="UNIFIED_CHARGE_SYSTEM_COMPLETE.md" />
+    <Content Include="LAB_WAITING_LIST_ENHANCED.md" />
+    <Content Include="LAB_WAITING_LIST_FIXES.md" />
+    <Content Include="FIXES_VERIFICATION_CHECKLIST.md" />
+    <Content Include="QUICK_FIX_SUMMARY.md" />
+    <Content Include="BUTTON_FIX_DIAGRAM.md" />
+    <Content Include="VS_PROJECT_FILES_ADDED.md" />
+    <Content Include="COMPLETE_SESSION_SUMMARY.md" />
+    <Content Include="README_LAB_FIXES.md" />
+    <Content Include="LAB_REFERENCE_GUIDE_CODEBEHIND_FIX.md" />
+    <Content Include="FINAL_COMPLETE_SESSION_SUMMARY.md" />
+    <Content Include="LAB_REFERENCE_GUIDE_AUTH_FIX.md" />
+    <Content Include="COMPLETE_FIXES_SUMMARY.md" />
+    <Content Include="LAB_WAITING_LIST_ENHANCEMENTS.md" />
+    <Content Include="LAB_MODAL_IMPLEMENTATION.md" />
+    <Content Include="LAB_MODAL_DATABASE_FIX.md" />
+    <Content Include="LAB_EDIT_FUNCTIONALITY.md" />
+    <Content Include="TEST_DETAILS_FUNCTIONALITY_CONFIRMED.md" />
+    <Content Include="TEST_DETAILS_ENHANCEMENTS.md" />
+    <Content Include="TEST_DETAILS_VISUAL_GUIDE.md" />
+    <Content Include="IMPLEMENTATION_SUMMARY.md" />
+    <Content Include="FILES_ADDED_TO_VS_PROJECT.md" />
+    <Content Include="COMPLETE_TASK_SUMMARY.md" />
+    <Content Include="LAB_TEST_ORDERED_ONLY_FEATURE.md" />
+    <Content Include="LAB_TEST_ORDERED_ONLY_COMPLETE_FIX.md" />
+    <Content Include="LAB_TEST_ALL_ENTRY_POINTS_FIXED.md" />
+    <Content Include="LAB_TEST_LOADING_STATE_FIX.md" />
+    <Content Include="VISUAL_STUDIO_PROJECT_UPDATED.md" />
+    <Content Include="test_details.aspx.backup" />
+    <Content Include="test_details.aspx.cs.backup" />
+    <Content Include="admin_dashbourd.aspx" />
+    <Content Include="bed_revenue_report.aspx" />
+    <Content Include="delivery_revenue_report.aspx" />
+    <Content Include="patient_invoice_print.aspx" />
+    <Content Include="lab_orders_print.aspx" />
+    <Content Include="lab_result_print.aspx" />
+    <Content Include="medication_print.aspx" />
+    <Content Include="patient_lab_history.aspx" />
+    <Content Include="charge_history.aspx" />
+    <Content Include="financial_reports.aspx" />
+    <Content Include="registration_revenue_report.aspx" />
+    <Content Include="lab_revenue_report.aspx" />
+    <Content Include="xray_revenue_report.aspx" />
+    <Content Include="pharmacy_revenue_report.aspx" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\demo.css" />
+    <Content Include="assets\css\fonts.css" />
+    <Content Include="assets\css\fonts.min.css" />
+    <Content Include="assets\css\kaiadmin.css" />
+    <Content Include="assets\css\kaiadmin.min.css" />
+    <Content Include="assets\css\plugins.css" />
+    <Content Include="assets\css\plugins.min.css" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.svg" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.svg" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.svg" />
+    <Content Include="assets\fonts\simple-line-icons\Simple-Line-Icons.svg" />
+    <Content Include="assets\img\arashmil.jpg" />
+    <Content Include="assets\img\bg-404.jpeg" />
+    <Content Include="assets\img\blogpost.jpg" />
+    <Content Include="assets\img\chadengle.jpg" />
+    <Content Include="assets\img\examples\example1-300x300.jpg" />
+    <Content Include="assets\img\examples\example1.jpeg" />
+    <Content Include="assets\img\examples\example10-300x300.jpg" />
+    <Content Include="assets\img\examples\example10.jpeg" />
+    <Content Include="assets\img\examples\example11-300x300.jpg" />
+    <Content Include="assets\img\examples\example11.jpeg" />
+    <Content Include="assets\img\examples\example12-300x300.jpg" />
+    <Content Include="assets\img\examples\example12.jpeg" />
+    <Content Include="assets\img\examples\example2-300x300.jpg" />
+    <Content Include="assets\img\examples\example2.jpeg" />
+    <Content Include="assets\img\examples\example3-300x300.jpg" />
+    <Content Include="assets\img\examples\example3.jpeg" />
+    <Content Include="assets\img\examples\example4-300x300.jpg" />
+    <Content Include="assets\img\examples\example4.jpeg" />
+    <Content Include="assets\img\examples\example5-300x300.jpg" />
+    <Content Include="assets\img\examples\example5.jpeg" />
+    <Content Include="assets\img\examples\example6-300x300.jpg" />
+    <Content Include="assets\img\examples\example6.jpeg" />
+    <Content Include="assets\img\examples\example7-300x300.jpg" />
+    <Content Include="assets\img\examples\example7.jpeg" />
+    <Content Include="assets\img\examples\example8-300x300.jpg" />
+    <Content Include="assets\img\examples\example8.jpeg" />
+    <Content Include="assets\img\examples\example9-300x300.jpg" />
+    <Content Include="assets\img\examples\example9.jpeg" />
+    <Content Include="assets\img\examples\logo.svg" />
+    <Content Include="assets\img\examples\logo1.svg" />
+    <Content Include="assets\img\examples\logo2.svg" />
+    <Content Include="assets\img\examples\logoinvoice.svg" />
+    <Content Include="assets\img\examples\product1.jpg" />
+    <Content Include="assets\img\examples\product10.jpeg" />
+    <Content Include="assets\img\examples\product11.jpeg" />
+    <Content Include="assets\img\examples\product12.jpeg" />
+    <Content Include="assets\img\examples\product2.jpg" />
+    <Content Include="assets\img\examples\product3.jpg" />
+    <Content Include="assets\img\examples\product4.jpg" />
+    <Content Include="assets\img\examples\product5.jpg" />
+    <Content Include="assets\img\examples\product6.jpg" />
+    <Content Include="assets\img\examples\product7.jpg" />
+    <Content Include="assets\img\examples\product8.jpg" />
+    <Content Include="assets\img\flags\ad.png" />
+    <Content Include="assets\img\flags\ae.png" />
+    <Content Include="assets\img\flags\af.png" />
+    <Content Include="assets\img\flags\ag.png" />
+    <Content Include="assets\img\flags\ai.png" />
+    <Content Include="assets\img\flags\al.png" />
+    <Content Include="assets\img\flags\am.png" />
+    <Content Include="assets\img\flags\an.png" />
+    <Content Include="assets\img\flags\ao.png" />
+    <Content Include="assets\img\flags\ar.png" />
+    <Content Include="assets\img\flags\as.png" />
+    <Content Include="assets\img\flags\at.png" />
+    <Content Include="assets\img\flags\au.png" />
+    <Content Include="assets\img\flags\aw.png" />
+    <Content Include="assets\img\flags\ax.png" />
+    <Content Include="assets\img\flags\az.png" />
+    <Content Include="assets\img\flags\ba.png" />
+    <Content Include="assets\img\flags\bb.png" />
+    <Content Include="assets\img\flags\bd.png" />
+    <Content Include="assets\img\flags\be.png" />
+    <Content Include="assets\img\flags\bf.png" />
+    <Content Include="assets\img\flags\bg.png" />
+    <Content Include="assets\img\flags\bh.png" />
+    <Content Include="assets\img\flags\bi.png" />
+    <Content Include="assets\img\flags\bj.png" />
+    <Content Include="assets\img\flags\bm.png" />
+    <Content Include="assets\img\flags\bn.png" />
+    <Content Include="assets\img\flags\bo.png" />
+    <Content Include="assets\img\flags\br.png" />
+    <Content Include="assets\img\flags\bs.png" />
+    <Content Include="assets\img\flags\bt.png" />
+    <Content Include="assets\img\flags\bv.png" />
+    <Content Include="assets\img\flags\bw.png" />
+    <Content Include="assets\img\flags\by.png" />
+    <Content Include="assets\img\flags\bz.png" />
+    <Content Include="assets\img\flags\ca.png" />
+    <Content Include="assets\img\flags\catalonia.png" />
+    <Content Include="assets\img\flags\cc.png" />
+    <Content Include="assets\img\flags\cd.png" />
+    <Content Include="assets\img\flags\cf.png" />
+    <Content Include="assets\img\flags\cg.png" />
+    <Content Include="assets\img\flags\ch.png" />
+    <Content Include="assets\img\flags\ci.png" />
+    <Content Include="assets\img\flags\ck.png" />
+    <Content Include="assets\img\flags\cl.png" />
+    <Content Include="assets\img\flags\cm.png" />
+    <Content Include="assets\img\flags\cn.png" />
+    <Content Include="assets\img\flags\co.png" />
+    <Content Include="assets\img\flags\cr.png" />
+    <Content Include="assets\img\flags\cs.png" />
+    <Content Include="assets\img\flags\cu.png" />
+    <Content Include="assets\img\flags\cv.png" />
+    <Content Include="assets\img\flags\cx.png" />
+    <Content Include="assets\img\flags\cy.png" />
+    <Content Include="assets\img\flags\cz.png" />
+    <Content Include="assets\img\flags\de.png" />
+    <Content Include="assets\img\flags\dj.png" />
+    <Content Include="assets\img\flags\dk.png" />
+    <Content Include="assets\img\flags\dm.png" />
+    <Content Include="assets\img\flags\do.png" />
+    <Content Include="assets\img\flags\dz.png" />
+    <Content Include="assets\img\flags\ec.png" />
+    <Content Include="assets\img\flags\ee.png" />
+    <Content Include="assets\img\flags\eg.png" />
+    <Content Include="assets\img\flags\eh.png" />
+    <Content Include="assets\img\flags\england.png" />
+    <Content Include="assets\img\flags\er.png" />
+    <Content Include="assets\img\flags\es.png" />
+    <Content Include="assets\img\flags\et.png" />
+    <Content Include="assets\img\flags\europeanunion.png" />
+    <Content Include="assets\img\flags\fam.png" />
+    <Content Include="assets\img\flags\fi.png" />
+    <Content Include="assets\img\flags\fj.png" />
+    <Content Include="assets\img\flags\fk.png" />
+    <Content Include="assets\img\flags\fm.png" />
+    <Content Include="assets\img\flags\fo.png" />
+    <Content Include="assets\img\flags\fr.png" />
+    <Content Include="assets\img\flags\ga.png" />
+    <Content Include="assets\img\flags\gb.png" />
+    <Content Include="assets\img\flags\gd.png" />
+    <Content Include="assets\img\flags\ge.png" />
+    <Content Include="assets\img\flags\gf.png" />
+    <Content Include="assets\img\flags\gh.png" />
+    <Content Include="assets\img\flags\gi.png" />
+    <Content Include="assets\img\flags\gl.png" />
+    <Content Include="assets\img\flags\gm.png" />
+    <Content Include="assets\img\flags\gn.png" />
+    <Content Include="assets\img\flags\gp.png" />
+    <Content Include="assets\img\flags\gq.png" />
+    <Content Include="assets\img\flags\gr.png" />
+    <Content Include="assets\img\flags\gs.png" />
+    <Content Include="assets\img\flags\gt.png" />
+    <Content Include="assets\img\flags\gu.png" />
+    <Content Include="assets\img\flags\gw.png" />
+    <Content Include="assets\img\flags\gy.png" />
+    <Content Include="assets\img\flags\hk.png" />
+    <Content Include="assets\img\flags\hm.png" />
+    <Content Include="assets\img\flags\hn.png" />
+    <Content Include="assets\img\flags\hr.png" />
+    <Content Include="assets\img\flags\ht.png" />
+    <Content Include="assets\img\flags\hu.png" />
+    <Content Include="assets\img\flags\id.png" />
+    <Content Include="assets\img\flags\ie.png" />
+    <Content Include="assets\img\flags\il.png" />
+    <Content Include="assets\img\flags\in.png" />
+    <Content Include="assets\img\flags\io.png" />
+    <Content Include="assets\img\flags\iq.png" />
+    <Content Include="assets\img\flags\ir.png" />
+    <Content Include="assets\img\flags\is.png" />
+    <Content Include="assets\img\flags\it.png" />
+    <Content Include="assets\img\flags\jm.png" />
+    <Content Include="assets\img\flags\jo.png" />
+    <Content Include="assets\img\flags\jp.png" />
+    <Content Include="assets\img\flags\ke.png" />
+    <Content Include="assets\img\flags\kg.png" />
+    <Content Include="assets\img\flags\kh.png" />
+    <Content Include="assets\img\flags\ki.png" />
+    <Content Include="assets\img\flags\km.png" />
+    <Content Include="assets\img\flags\kn.png" />
+    <Content Include="assets\img\flags\kp.png" />
+    <Content Include="assets\img\flags\kr.png" />
+    <Content Include="assets\img\flags\kw.png" />
+    <Content Include="assets\img\flags\ky.png" />
+    <Content Include="assets\img\flags\kz.png" />
+    <Content Include="assets\img\flags\la.png" />
+    <Content Include="assets\img\flags\lb.png" />
+    <Content Include="assets\img\flags\lc.png" />
+    <Content Include="assets\img\flags\li.png" />
+    <Content Include="assets\img\flags\lk.png" />
+    <Content Include="assets\img\flags\lr.png" />
+    <Content Include="assets\img\flags\ls.png" />
+    <Content Include="assets\img\flags\lt.png" />
+    <Content Include="assets\img\flags\lu.png" />
+    <Content Include="assets\img\flags\lv.png" />
+    <Content Include="assets\img\flags\ly.png" />
+    <Content Include="assets\img\flags\ma.png" />
+    <Content Include="assets\img\flags\mc.png" />
+    <Content Include="assets\img\flags\md.png" />
+    <Content Include="assets\img\flags\me.png" />
+    <Content Include="assets\img\flags\mg.png" />
+    <Content Include="assets\img\flags\mh.png" />
+    <Content Include="assets\img\flags\mk.png" />
+    <Content Include="assets\img\flags\ml.png" />
+    <Content Include="assets\img\flags\mm.png" />
+    <Content Include="assets\img\flags\mn.png" />
+    <Content Include="assets\img\flags\mo.png" />
+    <Content Include="assets\img\flags\mp.png" />
+    <Content Include="assets\img\flags\mq.png" />
+    <Content Include="assets\img\flags\mr.png" />
+    <Content Include="assets\img\flags\ms.png" />
+    <Content Include="assets\img\flags\mt.png" />
+    <Content Include="assets\img\flags\mu.png" />
+    <Content Include="assets\img\flags\mv.png" />
+    <Content Include="assets\img\flags\mw.png" />
+    <Content Include="assets\img\flags\mx.png" />
+    <Content Include="assets\img\flags\my.png" />
+    <Content Include="assets\img\flags\mz.png" />
+    <Content Include="assets\img\flags\na.png" />
+    <Content Include="assets\img\flags\nc.png" />
+    <Content Include="assets\img\flags\ne.png" />
+    <Content Include="assets\img\flags\nf.png" />
+    <Content Include="assets\img\flags\ng.png" />
+    <Content Include="assets\img\flags\ni.png" />
+    <Content Include="assets\img\flags\nl.png" />
+    <Content Include="assets\img\flags\no.png" />
+    <Content Include="assets\img\flags\np.png" />
+    <Content Include="assets\img\flags\nr.png" />
+    <Content Include="assets\img\flags\nu.png" />
+    <Content Include="assets\img\flags\nz.png" />
+    <Content Include="assets\img\flags\om.png" />
+    <Content Include="assets\img\flags\pa.png" />
+    <Content Include="assets\img\flags\pe.png" />
+    <Content Include="assets\img\flags\pf.png" />
+    <Content Include="assets\img\flags\pg.png" />
+    <Content Include="assets\img\flags\ph.png" />
+    <Content Include="assets\img\flags\pk.png" />
+    <Content Include="assets\img\flags\pl.png" />
+    <Content Include="assets\img\flags\pm.png" />
+    <Content Include="assets\img\flags\pn.png" />
+    <Content Include="assets\img\flags\pr.png" />
+    <Content Include="assets\img\flags\ps.png" />
+    <Content Include="assets\img\flags\pt.png" />
+    <Content Include="assets\img\flags\pw.png" />
+    <Content Include="assets\img\flags\py.png" />
+    <Content Include="assets\img\flags\qa.png" />
+    <Content Include="assets\img\flags\re.png" />
+    <Content Include="assets\img\flags\readme.txt" />
+    <Content Include="assets\img\flags\ro.png" />
+    <Content Include="assets\img\flags\rs.png" />
+    <Content Include="assets\img\flags\ru.png" />
+    <Content Include="assets\img\flags\rw.png" />
+    <Content Include="assets\img\flags\sa.png" />
+    <Content Include="assets\img\flags\sb.png" />
+    <Content Include="assets\img\flags\sc.png" />
+    <Content Include="assets\img\flags\scotland.png" />
+    <Content Include="assets\img\flags\sd.png" />
+    <Content Include="assets\img\flags\se.png" />
+    <Content Include="assets\img\flags\sg.png" />
+    <Content Include="assets\img\flags\sh.png" />
+    <Content Include="assets\img\flags\si.png" />
+    <Content Include="assets\img\flags\sj.png" />
+    <Content Include="assets\img\flags\sk.png" />
+    <Content Include="assets\img\flags\sl.png" />
+    <Content Include="assets\img\flags\sm.png" />
+    <Content Include="assets\img\flags\sn.png" />
+    <Content Include="assets\img\flags\so.png" />
+    <Content Include="assets\img\flags\sr.png" />
+    <Content Include="assets\img\flags\st.png" />
+    <Content Include="assets\img\flags\sv.png" />
+    <Content Include="assets\img\flags\sy.png" />
+    <Content Include="assets\img\flags\sz.png" />
+    <Content Include="assets\img\flags\tc.png" />
+    <Content Include="assets\img\flags\td.png" />
+    <Content Include="assets\img\flags\tf.png" />
+    <Content Include="assets\img\flags\tg.png" />
+    <Content Include="assets\img\flags\th.png" />
+    <Content Include="assets\img\flags\tj.png" />
+    <Content Include="assets\img\flags\tk.png" />
+    <Content Include="assets\img\flags\tl.png" />
+    <Content Include="assets\img\flags\tm.png" />
+    <Content Include="assets\img\flags\tn.png" />
+    <Content Include="assets\img\flags\to.png" />
+    <Content Include="assets\img\flags\tr.png" />
+    <Content Include="assets\img\flags\tt.png" />
+    <Content Include="assets\img\flags\tv.png" />
+    <Content Include="assets\img\flags\tw.png" />
+    <Content Include="assets\img\flags\tz.png" />
+    <Content Include="assets\img\flags\ua.png" />
+    <Content Include="assets\img\flags\ug.png" />
+    <Content Include="assets\img\flags\um.png" />
+    <Content Include="assets\img\flags\us.png" />
+    <Content Include="assets\img\flags\uy.png" />
+    <Content Include="assets\img\flags\uz.png" />
+    <Content Include="assets\img\flags\va.png" />
+    <Content Include="assets\img\flags\vc.png" />
+    <Content Include="assets\img\flags\ve.png" />
+    <Content Include="assets\img\flags\vg.png" />
+    <Content Include="assets\img\flags\vi.png" />
+    <Content Include="assets\img\flags\vn.png" />
+    <Content Include="assets\img\flags\vu.png" />
+    <Content Include="assets\img\flags\wales.png" />
+    <Content Include="assets\img\flags\wf.png" />
+    <Content Include="assets\img\flags\ws.png" />
+    <Content Include="assets\img\flags\ye.png" />
+    <Content Include="assets\img\flags\yt.png" />
+    <Content Include="assets\img\flags\za.png" />
+    <Content Include="assets\img\flags\zm.png" />
+    <Content Include="assets\img\flags\zw.png" />
+    <Content Include="assets\img\img-shadow.png" />
+    <Content Include="assets\img\j.png" />
+    <Content Include="assets\img\jm_denis.jpg" />
+    <Content Include="assets\img\kaiadmin\demo1.png" />
+    <Content Include="assets\img\kaiadmin\demo2.png" />
+    <Content Include="assets\img\kaiadmin\demo3.png" />
+    <Content Include="assets\img\kaiadmin\demo4.png" />
+    <Content Include="assets\img\kaiadmin\demo5.png" />
+    <Content Include="assets\img\kaiadmin\demo6.png" />
+    <Content Include="assets\img\kaiadmin\demo7.png" />
+    <Content Include="assets\img\kaiadmin\demo8.png" />
+    <Content Include="assets\img\kaiadmin\demo9.png" />
+    <Content Include="assets\img\kaiadmin\favicon.ico" />
+    <Content Include="assets\img\kaiadmin\favicon.png" />
+    <Content Include="assets\img\kaiadmin\favicon.svg" />
+    <Content Include="assets\img\kaiadmin\icon.png" />
+    <Content Include="assets\img\kaiadmin\icon.svg" />
+    <Content Include="assets\img\kaiadmin\j.ico" />
+    <Content Include="assets\img\kaiadmin\j.svg" />
+    <Content Include="assets\img\kaiadmin\logo_dark.png" />
+    <Content Include="assets\img\kaiadmin\logo_dark.svg" />
+    <Content Include="assets\img\kaiadmin\logo_documentation.png" />
+    <Content Include="assets\img\kaiadmin\logo_light.png" />
+    <Content Include="assets\img\kaiadmin\logo_light.svg" />
+    <Content Include="assets\img\lab.png" />
+    <Content Include="assets\img\logog.png" />
+    <Content Include="assets\img\logoproduct.svg" />
+    <Content Include="assets\img\logoproduct2.svg" />
+    <Content Include="assets\img\logoproduct3.svg" />
+    <Content Include="assets\img\mlane.jpg" />
+    <Content Include="assets\img\profile.jpg" />
+    <Content Include="assets\img\profile2.jpg" />
+    <Content Include="assets\img\sauro.jpg" />
+    <Content Include="assets\img\talha.jpg" />
+    <Content Include="assets\img\undraw\undraw_blank_canvas_3rbb.svg" />
+    <Content Include="assets\img\undraw\undraw_creative_team_r90h.svg" />
+    <Content Include="assets\img\undraw\undraw_empty_xct9.svg" />
+    <Content Include="assets\img\undraw\undraw_Hello_qnas.svg" />
+    <Content Include="assets\img\undraw\undraw_not_found_60pq.svg" />
+    <Content Include="assets\img\undraw\undraw_no_data_qbuo.svg" />
+    <Content Include="assets\img\undraw\undraw_page_not_found_su7k.svg" />
+    <Content Include="assets\img\undraw\undraw_sign_in_e6hj.svg" />
+    <Content Include="assets\img\undraw\undraw_tabs_jf82.svg" />
+    <Content Include="assets\img\undraw\undraw_Taken_if77.svg" />
+    <Content Include="assets\img\undraw\undraw_update_uxn2.svg" />
+    <Content Include="assets\img\undraw\undraw_upgrade_06a0.svg" />
+    <Content Include="assets\img\visa.svg" />
+    <Content Include="assets\j.png" />
+    <Content Include="assets\js\core\bootstrap.min.js" />
+    <Content Include="assets\js\core\jquery-3.7.1.min.js" />
+    <Content Include="assets\js\core\popper.min.js" />
+    <Content Include="assets\js\demo.js" />
+    <Content Include="assets\js\kaiadmin.js" />
+    <Content Include="assets\js\kaiadmin.min.js" />
+    <Content Include="assets\js\plugin\bootstrap-notify\bootstrap-notify.min.js" />
+    <Content Include="assets\js\plugin\bootstrap-tagsinput\bootstrap-tagsinput.min.js" />
+    <Content Include="assets\js\plugin\bootstrap-toggle\bootstrap-toggle.min.js" />
+    <Content Include="assets\js\plugin\chart-circle\circles.min.js" />
+    <Content Include="assets\js\plugin\chart.js\chart.min.js" />
+    <Content Include="assets\js\plugin\datatables\datatables.min.js" />
+    <Content Include="assets\js\plugin\datepicker\bootstrap-datetimepicker.min.js" />
+    <Content Include="assets\js\plugin\dropzone\dropzone.min.js" />
+    <Content Include="assets\js\plugin\fullcalendar\fullcalendar.min.js" />
+    <Content Include="assets\js\plugin\gmaps\gmaps.js" />
+    <Content Include="assets\js\plugin\jquery-scrollbar\jquery.scrollbar.min.js" />
+    <Content Include="assets\js\plugin\jquery.magnific-popup\jquery.magnific-popup.min.js" />
+    <Content Include="assets\js\plugin\jquery.sparkline\jquery.sparkline.min.js" />
+    <Content Include="assets\js\plugin\jquery.validate\jquery.validate.min.js" />
+    <Content Include="assets\js\plugin\jsvectormap\jsvectormap.min.js" />
+    <Content Include="assets\js\plugin\jsvectormap\world.js" />
+    <Content Include="assets\js\plugin\list.js\list.min.js" />
+    <Content Include="assets\js\plugin\moment\moment.min.js" />
+    <Content Include="assets\js\plugin\owl-carousel\ajax-loader.gif" />
+    <Content Include="assets\js\plugin\owl-carousel\owl.carousel.min.js" />
+    <Content Include="assets\js\plugin\owl-carousel\owl.video.play.png" />
+    <Content Include="assets\js\plugin\select2\select2.full.min.js" />
+    <Content Include="assets\js\plugin\sortable\sortable.min.js" />
+    <Content Include="assets\js\plugin\sticky-sidebar\sticky-sidebar.min.js" />
+    <Content Include="assets\js\plugin\summernote\summernote-lite.min.js" />
+    <Content Include="assets\js\plugin\sweetalert\sweetalert.min.js" />
+    <Content Include="assets\js\plugin\webfont\webfont.min.js" />
+    <Content Include="assets\js\setting-demo.js" />
+    <Content Include="assets\js\setting-demo2.js" />
+    <Content Include="assets\sweetalert2.css" />
+    <Content Include="assets\sweetalert2.min.js" />
+    <Content Include="assets\zfsdfg.png" />
+    <Content Include="Files\WhatsApp Image 2024-05-27 at 23.24.20.jpeg" />
+    <Content Include="Files\jubba logo.png" />
+    <Content Include="assignmed.aspx" />
+    <Content Include="assingxray.aspx" />
+    <Content Include="completed_patients.aspx" />
+    <Content Include="charges_management_database.sql" />
+    <Content Include="ADD_TRANSACTION_STATUS_COLUMN.sql" />
+    <Content Include="ADD_COMPLETED_DATE_COLUMN.sql" />
+    <Content Include="c.css" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="d.js" />
+    <Content Include="Dashbourd.aspx" />
+    <Content Include="datatables\btn.js" />
+    <Content Include="datatables\datatables.css" />
+    <Content Include="datatables\datatables.js" />
+    <Content Include="datatables\datatables.min.css" />
+    <Content Include="datatables\datatables.min.js" />
+    <Content Include="datatables\dtmin.js" />
+    <Content Include="datatables\htmlbyn.js" />
+    <Content Include="datatables\jzip.js" />
+    <Content Include="datatables\pdf.js" />
+    <Content Include="tmp_rovodev_ordered_tests_script.js" />
+    <Content Include="Default.aspx" />
+    <Content Include="delete_medic.aspx" />
+    <Content Include="delete_xray.aspx" />
+    <Content Include="delete_xray_images.aspx" />
+    <Content Include="doctor_inpatient.aspx" />
+    <Content Include="admin_inpatient.aspx" />
+    <Content Include="register_inpatient.aspx" />
+    <Content Include="registre_inpatients.aspx" />
+    <Content Include="registre_outpatients.aspx" />
+    <Content Include="outpatient_full_report.aspx" />
+    <Content Include="inpatient_full_report.aspx" />
+    <Content Include="registre_discharged.aspx" />
+    <Content Include="doctor_registre_inpatients.aspx" />
+    <Content Include="doctor_registre_outpatients.aspx" />
+    <Content Include="doctor_registre_discharged.aspx" />
+    <Content Include="admin_registre_inpatients.aspx" />
+    <Content Include="admin_registre_outpatients.aspx" />
+    <Content Include="admin_registre_discharged.aspx" />
+    <Content Include="discharge_summary_print.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="homepage.master" />
+    <Content Include="assets\css\demo.css.map" />
+    <Content Include="assets\css\kaiadmin.css.map" />
+    <Content Include="assets\css\plugins.css.map" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.eot" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.ttf" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.woff" />
+    <Content Include="assets\fonts\fontawesome\fa-brands-400.woff2" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.eot" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.ttf" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.woff" />
+    <Content Include="assets\fonts\fontawesome\fa-regular-400.woff2" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.eot" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.ttf" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.woff" />
+    <Content Include="assets\fonts\fontawesome\fa-solid-900.woff2" />
+    <Content Include="assets\fonts\simple-line-icons\Simple-Line-Icons.eot" />
+    <Content Include="assets\fonts\simple-line-icons\Simple-Line-Icons.ttf" />
+    <Content Include="assets\fonts\simple-line-icons\Simple-Line-Icons.woff" />
+    <Content Include="assets\fonts\simple-line-icons\Simple-Line-Icons.woff2" />
+    <Content Include="assets\fonts\summernote\summernote.eot" />
+    <Content Include="assets\fonts\summernote\summernote.ttf" />
+    <Content Include="assets\fonts\summernote\summernote.woff" />
+    <Content Include="assets\fonts\summernote\summernote.woff2" />
+    <Content Include="lab_completed_orders.aspx" />
+    <Content Include="lab_waiting_list.aspx" />
+    <Content Include="lap_operation.aspx" />
+    <Content Include="lap_processed.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="manage_charges.aspx" />
+    <Content Include="medication_report.aspx" />
+    <Content Include="operateadmin.aspx" />
+    <Content Include="patient_amount.aspx" />
+    <Content Include="Patient_details.aspx" />
+    <Content Include="patient_in.aspx" />
+    <Content Include="Patient_Operation.aspx" />
+    <Content Include="patient_report.aspx" />
+    <Content Include="patient_status.aspx" />
+    <Content Include="pending_lap.aspx" />
+    <Content Include="pending_xray.aspx" />
+    <Content Include="pharmacy_sales_reports.aspx" />
+    <Content Include="medicine_sales_report.aspx" />
+    <Content Include="pharmacy_patient_medications.aspx" />
+    <Content Include="Properties\PublishProfiles\FolderProfile.pubxml.user" />
+    <Content Include="register.Master" />
+    <Content Include="doctor.Master" />
+    <Content Include="labtest.Master" />
+    <Content Include="pharmacy.Master" />
+    <Content Include="Scripts\responsive.js" />
+    <Content Include="take_xray.aspx" />
+    <Content Include="take_xray_lab_test.aspx" />
+    <Content Include="test_details.aspx" />
+    <Content Include="xray_processed.aspx" />
+    <Content Include="Admin.Master" />
+    <Content Include=".vs\juba_hospital.csproj.dtbcache.json" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Site.Master" />
+    <Content Include="take_lab_test.aspx" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="waitingpatients.aspx" />
+    <Content Include="images\WhatsApp Image 2024-07-03 at 22.06.38.jpeg" />
+    <Content Include="visit_summary_print.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Bundle.config" />
+    <Content Include="Site.Mobile.Master" />
+    <Content Include="xray.Master" />
+    <Content Include="BED_DELIVERY_CHARGES_DASHBOARD_IMPLEMENTATION.md" />
+    <Content Include="BED_DELIVERY_REVENUE_REPORTS_IMPLEMENTATION.md" />
+    <Content Include="CHARGE_HISTORY_BED_DELIVERY_UPDATE.md" />
+    <Content Include="CHARGES_SYSTEM_COMPLETE.md" />
+    <Content Include="CHARGES_SYSTEM_IMPLEMENTATION.md" />
+    <Content Include="FEATURE_ENHANCEMENT_PLAN.md" />
+    <Content Include="PHARMACY_MODULE_SUMMARY.md" />
+    <Content Include="PROJECT_ANALYSIS_REPORT.md" />
+    <Content Include="PROJECT_OVERVIEW.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addlabuser.aspx.cs">
+      <DependentUpon>addlabuser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addlabuser.aspx.designer.cs">
+      <DependentUpon>addlabuser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addxrayuser.aspx.cs">
+      <DependentUpon>addxrayuser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addxrayuser.aspx.designer.cs">
+      <DependentUpon>addxrayuser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add_doctor.aspx.cs">
+      <DependentUpon>add_doctor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_doctor.aspx.designer.cs">
+      <DependentUpon>add_doctor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add_medicine_units.aspx.cs">
+      <DependentUpon>add_medicine_units.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_medicine_units.aspx.designer.cs">
+      <DependentUpon>add_medicine_units.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add_pharmacy_user.aspx.cs">
+      <DependentUpon>add_pharmacy_user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_pharmacy_user.aspx.designer.cs">
+      <DependentUpon>add_pharmacy_user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add_medicine.aspx.cs">
+      <DependentUpon>add_medicine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_medicine.aspx.designer.cs">
+      <DependentUpon>add_medicine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BedChargeCalculator.cs" />
+    <Compile Include="DateTimeHelper.cs" />
+    <Compile Include="HospitalSettingsHelper.cs" />
+    <Compile Include="LabTestPriceCalculator.cs" />
+    <Compile Include="hospital_settings.aspx.cs">
+      <DependentUpon>hospital_settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hospital_settings.aspx.designer.cs">
+      <DependentUpon>hospital_settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="inpatient_full_report.aspx.cs">
+      <DependentUpon>inpatient_full_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lab_comprehensive_report.aspx.cs">
+      <DependentUpon>lab_comprehensive_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lab_comprehensive_report.aspx.designer.cs">
+      <DependentUpon>lab_comprehensive_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lab_reference_guide.aspx.cs">
+      <DependentUpon>lab_reference_guide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lab_reference_guide.aspx.designer.cs">
+      <DependentUpon>lab_reference_guide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manage_lab_test_prices.aspx.cs">
+      <DependentUpon>manage_lab_test_prices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manage_lab_test_prices.aspx.designer.cs">
+      <DependentUpon>manage_lab_test_prices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="medicine_inventory.aspx.cs">
+      <DependentUpon>medicine_inventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="medicine_inventory.aspx.designer.cs">
+      <DependentUpon>medicine_inventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dispense_medication.aspx.cs">
+      <DependentUpon>dispense_medication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dispense_medication.aspx.designer.cs">
+      <DependentUpon>dispense_medication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="low_stock.aspx.cs">
+      <DependentUpon>low_stock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="low_stock.aspx.designer.cs">
+      <DependentUpon>low_stock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pharmacy_dashboard.aspx.cs">
+      <DependentUpon>pharmacy_dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pharmacy_dashboard.aspx.designer.cs">
+      <DependentUpon>pharmacy_dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pharmacy_pos.aspx.cs">
+      <DependentUpon>pharmacy_pos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mobile_pos.aspx.cs">
+      <DependentUpon>mobile_pos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pharmacy_pos.aspx.designer.cs">
+      <DependentUpon>pharmacy_pos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pharmacy_sales_history.aspx.cs">
+      <DependentUpon>pharmacy_sales_history.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pharmacy_sales_history.aspx.designer.cs">
+      <DependentUpon>pharmacy_sales_history.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pharmacy_return_transaction.aspx.cs">
+      <DependentUpon>pharmacy_return_transaction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pharmacy_return_transaction.aspx.designer.cs">
+      <DependentUpon>pharmacy_return_transaction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pharmacy_customers.aspx.cs">
+      <DependentUpon>pharmacy_customers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pharmacy_customers.aspx.designer.cs">
+      <DependentUpon>pharmacy_customers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="expired_medicines.aspx.cs">
+      <DependentUpon>expired_medicines.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="expired_medicines.aspx.designer.cs">
+      <DependentUpon>expired_medicines.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="print_expired_medicines_report.aspx.cs">
+      <DependentUpon>print_expired_medicines_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="print_expired_medicines_report.aspx.designer.cs">
+      <DependentUpon>print_expired_medicines_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="print_low_stock_report.aspx.cs">
+      <DependentUpon>print_low_stock_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="print_low_stock_report.aspx.designer.cs">
+      <DependentUpon>print_low_stock_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="print_sales_report.aspx.cs">
+      <DependentUpon>print_sales_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="print_sales_report.aspx.designer.cs">
+      <DependentUpon>print_sales_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="print_lab_revenue.aspx.cs">
+      <DependentUpon>print_lab_revenue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="print_lab_revenue.aspx.designer.cs">
+      <DependentUpon>print_lab_revenue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="print_registration_revenue.aspx.cs">
+      <DependentUpon>print_registration_revenue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="print_registration_revenue.aspx.designer.cs">
+      <DependentUpon>print_registration_revenue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="print_lab_revenue_report.aspx.cs">
+      <DependentUpon>print_lab_revenue_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="print_lab_revenue_report.aspx.designer.cs">
+      <DependentUpon>print_lab_revenue_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="print_pharmacy_revenue_report.aspx.cs">
+      <DependentUpon>print_pharmacy_revenue_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="print_pharmacy_revenue_report.aspx.designer.cs">
+      <DependentUpon>print_pharmacy_revenue_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="print_bed_revenue_report.aspx.cs">
+      <DependentUpon>print_bed_revenue_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="print_bed_revenue_report.aspx.designer.cs">
+      <DependentUpon>print_bed_revenue_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="print_delivery_revenue_report.aspx.cs">
+      <DependentUpon>print_delivery_revenue_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="print_delivery_revenue_report.aspx.designer.cs">
+      <DependentUpon>print_delivery_revenue_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="print_all_outpatients.aspx.cs">
+      <DependentUpon>print_all_outpatients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="print_all_outpatients.aspx.designer.cs">
+      <DependentUpon>print_all_outpatients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="print_all_inpatients.aspx.cs">
+      <DependentUpon>print_all_inpatients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="print_all_inpatients.aspx.designer.cs">
+      <DependentUpon>print_all_inpatients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="print_all_discharged.aspx.cs">
+      <DependentUpon>print_all_discharged.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="print_all_discharged.aspx.designer.cs">
+      <DependentUpon>print_all_discharged.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="print_all_patients_by_charge.aspx.cs">
+      <DependentUpon>print_all_patients_by_charge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="print_all_patients_by_charge.aspx.designer.cs">
+      <DependentUpon>print_all_patients_by_charge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_profile.aspx.cs">
+      <DependentUpon>admin_profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_profile.aspx.designer.cs">
+      <DependentUpon>admin_profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="doctor_profile.aspx.cs">
+      <DependentUpon>doctor_profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="doctor_profile.aspx.designer.cs">
+      <DependentUpon>doctor_profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lab_profile.aspx.cs">
+      <DependentUpon>lab_profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lab_profile.aspx.designer.cs">
+      <DependentUpon>lab_profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pharmacy_profile.aspx.cs">
+      <DependentUpon>pharmacy_profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pharmacy_profile.aspx.designer.cs">
+      <DependentUpon>pharmacy_profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="register_profile.aspx.cs">
+      <DependentUpon>register_profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register_profile.aspx.designer.cs">
+      <DependentUpon>register_profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user_profile.aspx.cs">
+      <DependentUpon>user_profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user_profile.aspx.designer.cs">
+      <DependentUpon>user_profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="xray_profile.aspx.cs">
+      <DependentUpon>xray_profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="xray_profile.aspx.designer.cs">
+      <DependentUpon>xray_profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pharmacy_invoice.aspx.cs">
+      <DependentUpon>pharmacy_invoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pharmacy_invoice.aspx.designer.cs">
+      <DependentUpon>pharmacy_invoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add_job_title.aspx.cs">
+      <DependentUpon>add_job_title.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_job_title.aspx.designer.cs">
+      <DependentUpon>add_job_title.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add_lab.aspx.cs">
+      <DependentUpon>add_lab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_lab.aspx.designer.cs">
+      <DependentUpon>add_lab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add_bed_charges.aspx.cs">
+      <DependentUpon>add_bed_charges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_bed_charges.aspx.designer.cs">
+      <DependentUpon>add_bed_charges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add_lab_charges.aspx.cs">
+      <DependentUpon>add_lab_charges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_lab_charges.aspx.designer.cs">
+      <DependentUpon>add_lab_charges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add_patients.aspx.cs">
+      <DependentUpon>Add_patients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add_patients.aspx.designer.cs">
+      <DependentUpon>Add_patients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add_patientsdoctor.aspx.cs">
+      <DependentUpon>add_patientsdoctor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_patientsdoctor.aspx.designer.cs">
+      <DependentUpon>add_patientsdoctor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add_registre.aspx.cs">
+      <DependentUpon>add_registre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_registre.aspx.designer.cs">
+      <DependentUpon>add_registre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add_xray.aspx.cs">
+      <DependentUpon>add_xray.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_xray.aspx.designer.cs">
+      <DependentUpon>add_xray.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add_xray_charges.aspx.cs">
+      <DependentUpon>add_xray_charges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_xray_charges.aspx.designer.cs">
+      <DependentUpon>add_xray_charges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="admin_dashbourd.aspx.cs">
+      <DependentUpon>admin_dashbourd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_dashbourd.aspx.designer.cs">
+      <DependentUpon>admin_dashbourd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bed_revenue_report.aspx.cs">
+      <DependentUpon>bed_revenue_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bed_revenue_report.aspx.designer.cs">
+      <DependentUpon>bed_revenue_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="delivery_revenue_report.aspx.cs">
+      <DependentUpon>delivery_revenue_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="delivery_revenue_report.aspx.designer.cs">
+      <DependentUpon>delivery_revenue_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="assignmed.aspx.cs">
+      <DependentUpon>assignmed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="assignmed.aspx.designer.cs">
+      <DependentUpon>assignmed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="completed_patients.aspx.cs">
+      <DependentUpon>completed_patients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="completed_patients.aspx.designer.cs">
+      <DependentUpon>completed_patients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assingxray.aspx.cs">
+      <DependentUpon>assingxray.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="assingxray.aspx.designer.cs">
+      <DependentUpon>assingxray.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashbourd.aspx.cs">
+      <DependentUpon>Dashbourd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashbourd.aspx.designer.cs">
+      <DependentUpon>Dashbourd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="delete_medic.aspx.cs">
+      <DependentUpon>delete_medic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="delete_medic.aspx.designer.cs">
+      <DependentUpon>delete_medic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="delete_xray.aspx.cs">
+      <DependentUpon>delete_xray.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="delete_xray.aspx.designer.cs">
+      <DependentUpon>delete_xray.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="delete_xray_images.aspx.cs">
+      <DependentUpon>delete_xray_images.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="delete_xray_images.aspx.designer.cs">
+      <DependentUpon>delete_xray_images.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="doctor.Master.cs">
+      <DependentUpon>doctor.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="doctor.Master.designer.cs">
+      <DependentUpon>doctor.Master</DependentUpon>
+    </Compile>
+    <Compile Include="doctor_inpatient.aspx.cs">
+      <DependentUpon>doctor_inpatient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="doctor_inpatient.aspx.designer.cs">
+      <DependentUpon>doctor_inpatient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_inpatient.aspx.cs">
+      <DependentUpon>admin_inpatient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_inpatient.aspx.designer.cs">
+      <DependentUpon>admin_inpatient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="register_inpatient.aspx.cs">
+      <DependentUpon>register_inpatient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register_inpatient.aspx.designer.cs">
+      <DependentUpon>register_inpatient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registre_inpatients.aspx.cs">
+      <DependentUpon>registre_inpatients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registre_inpatients.aspx.designer.cs">
+      <DependentUpon>registre_inpatients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registre_outpatients.aspx.cs">
+      <DependentUpon>registre_outpatients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registre_outpatients.aspx.designer.cs">
+      <DependentUpon>registre_outpatients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="outpatient_full_report.aspx.cs">
+      <DependentUpon>outpatient_full_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="outpatient_full_report.aspx.designer.cs">
+      <DependentUpon>outpatient_full_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="inpatient_full_report.aspx.cs">
+      <DependentUpon>inpatient_full_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="inpatient_full_report.aspx.designer.cs">
+      <DependentUpon>inpatient_full_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registre_discharged.aspx.cs">
+      <DependentUpon>registre_discharged.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registre_discharged.aspx.designer.cs">
+      <DependentUpon>registre_discharged.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="discharge_summary_print.aspx.cs">
+      <DependentUpon>discharge_summary_print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="discharge_summary_print.aspx.designer.cs">
+      <DependentUpon>discharge_summary_print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.master.cs">
+      <DependentUpon>homepage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homepage.master.designer.cs">
+      <DependentUpon>homepage.master</DependentUpon>
+    </Compile>
+    <Compile Include="labtest.Master.cs">
+      <DependentUpon>labtest.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="labtest.Master.designer.cs">
+      <DependentUpon>labtest.Master</DependentUpon>
+    </Compile>
+    <Compile Include="pharmacy.Master.cs">
+      <DependentUpon>pharmacy.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pharmacy.Master.designer.cs">
+      <DependentUpon>pharmacy.Master</DependentUpon>
+    </Compile>
+    <Compile Include="lab_completed_orders.aspx.cs">
+      <DependentUpon>lab_completed_orders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lab_completed_orders.aspx.designer.cs">
+      <DependentUpon>lab_completed_orders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lab_waiting_list.aspx.cs">
+      <DependentUpon>lab_waiting_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lab_waiting_list.aspx.designer.cs">
+      <DependentUpon>lab_waiting_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lap_operation.aspx.cs">
+      <DependentUpon>lap_operation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lap_operation.aspx.designer.cs">
+      <DependentUpon>lap_operation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lap_processed.aspx.cs">
+      <DependentUpon>lap_processed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lap_processed.aspx.designer.cs">
+      <DependentUpon>lap_processed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="medication_report.aspx.cs">
+      <DependentUpon>medication_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="medication_report.aspx.designer.cs">
+      <DependentUpon>medication_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manage_charges.aspx.cs">
+      <DependentUpon>manage_charges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manage_charges.aspx.designer.cs">
+      <DependentUpon>manage_charges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="operateadmin.aspx.cs">
+      <DependentUpon>operateadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="operateadmin.aspx.designer.cs">
+      <DependentUpon>operateadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="patient_amount.aspx.cs">
+      <DependentUpon>patient_amount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="patient_amount.aspx.designer.cs">
+      <DependentUpon>patient_amount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Patient_details.aspx.cs">
+      <DependentUpon>Patient_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Patient_details.aspx.designer.cs">
+      <DependentUpon>Patient_details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="patient_in.aspx.cs">
+      <DependentUpon>patient_in.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="patient_in.aspx.designer.cs">
+      <DependentUpon>patient_in.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Patient_Operation.aspx.cs">
+      <DependentUpon>Patient_Operation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Patient_Operation.aspx.designer.cs">
+      <DependentUpon>Patient_Operation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="patient_report.aspx.cs">
+      <DependentUpon>patient_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="patient_report.aspx.designer.cs">
+      <DependentUpon>patient_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="patient_invoice_print.aspx.cs">
+      <DependentUpon>patient_invoice_print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lab_orders_print.aspx.cs">
+      <DependentUpon>lab_orders_print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lab_orders_print.aspx.designer.cs">
+      <DependentUpon>lab_orders_print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lab_result_print.aspx.cs">
+      <DependentUpon>lab_result_print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lab_result_print.aspx.designer.cs">
+      <DependentUpon>lab_result_print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="medication_print.aspx.cs">
+      <DependentUpon>medication_print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="medication_print.aspx.designer.cs">
+      <DependentUpon>medication_print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="patient_lab_history.aspx.cs">
+      <DependentUpon>patient_lab_history.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="patient_lab_history.aspx.designer.cs">
+      <DependentUpon>patient_lab_history.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="charge_history.aspx.cs">
+      <DependentUpon>charge_history.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="charge_history.aspx.designer.cs">
+      <DependentUpon>charge_history.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="financial_reports.aspx.cs">
+      <DependentUpon>financial_reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="financial_reports.aspx.designer.cs">
+      <DependentUpon>financial_reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registration_revenue_report.aspx.cs">
+      <DependentUpon>registration_revenue_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registration_revenue_report.aspx.designer.cs">
+      <DependentUpon>registration_revenue_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lab_revenue_report.aspx.cs">
+      <DependentUpon>lab_revenue_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lab_revenue_report.aspx.designer.cs">
+      <DependentUpon>lab_revenue_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="xray_revenue_report.aspx.cs">
+      <DependentUpon>xray_revenue_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="xray_revenue_report.aspx.designer.cs">
+      <DependentUpon>xray_revenue_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pharmacy_revenue_report.aspx.cs">
+      <DependentUpon>pharmacy_revenue_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pharmacy_revenue_report.aspx.designer.cs">
+      <DependentUpon>pharmacy_revenue_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="patient_invoice_print.aspx.designer.cs">
+      <DependentUpon>patient_invoice_print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="patient_status.aspx.cs">
+      <DependentUpon>patient_status.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="patient_status.aspx.designer.cs">
+      <DependentUpon>patient_status.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pending_lap.aspx.cs">
+      <DependentUpon>pending_lap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pending_lap.aspx.designer.cs">
+      <DependentUpon>pending_lap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pending_xray.aspx.cs">
+      <DependentUpon>pending_xray.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pending_xray.aspx.designer.cs">
+      <DependentUpon>pending_xray.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pharmacy_sales_reports.aspx.cs">
+      <DependentUpon>pharmacy_sales_reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pharmacy_sales_reports.aspx.designer.cs">
+      <DependentUpon>pharmacy_sales_reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="medicine_sales_report.aspx.cs">
+      <DependentUpon>medicine_sales_report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="medicine_sales_report.aspx.designer.cs">
+      <DependentUpon>medicine_sales_report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pharmacy_patient_medications.aspx.cs">
+      <DependentUpon>pharmacy_patient_medications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pharmacy_patient_medications.aspx.designer.cs">
+      <DependentUpon>pharmacy_patient_medications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.Master.cs">
+      <DependentUpon>register.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.Master.designer.cs">
+      <DependentUpon>register.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="take_lab_test.aspx.cs">
+      <DependentUpon>take_lab_test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="take_lab_test.aspx.designer.cs">
+      <DependentUpon>take_lab_test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="take_xray.aspx.cs">
+      <DependentUpon>take_xray.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="take_xray.aspx.designer.cs">
+      <DependentUpon>take_xray.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="take_xray_lab_test.aspx.cs">
+      <DependentUpon>take_xray_lab_test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="take_xray_lab_test.aspx.designer.cs">
+      <DependentUpon>take_xray_lab_test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test_details.aspx.cs">
+      <DependentUpon>test_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test_details.aspx.designer.cs">
+      <DependentUpon>test_details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="waitingpatients.aspx.cs">
+      <DependentUpon>waitingpatients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="waitingpatients.aspx.designer.cs">
+      <DependentUpon>waitingpatients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="visit_summary_print.aspx.cs">
+      <DependentUpon>visit_summary_print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="visit_summary_print.aspx.designer.cs">
+      <DependentUpon>visit_summary_print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="xray.Master.cs">
+      <DependentUpon>xray.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="xray.Master.designer.cs">
+      <DependentUpon>xray.Master</DependentUpon>
+    </Compile>
+    <Compile Include="xray_processed.aspx.cs">
+      <DependentUpon>xray_processed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="xray_processed.aspx.designer.cs">
+      <DependentUpon>xray_processed.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="assets\img\hospital\" />
+    <Folder Include="bin\roslyn\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <None Include="ADD_TRANSACTION_STATUS_COLUMN.sql" />
+    <None Include="ADD_COMPLETED_DATE_COLUMN.sql" />
+    <None Include="MANUAL_TRANSACTION_STATUS_FEATURE.md" />
+    <None Include="MANUAL_STATUS_DEPLOYMENT_GUIDE.md" />
+    <None Include="MANUAL_STATUS_QUICK_REFERENCE.md" />
+    <None Include="COMPLETED_PATIENTS_PAGE_FEATURE.md" />
+    <None Include="COMPLETED_PATIENTS_DEPLOYMENT.md" />
+    <None Include="FINAL_DEPLOYMENT_READY.md" />
+    <None Include="FINAL_SESSION_COMPLETE.md" />
+    <None Include="TODAY_SESSION_SUMMARY.md" />
+    <None Include="WATERMARK_IMPLEMENTATION_COMPLETE.md" />
+    <None Include="WATERMARK_TESTING_GUIDE.md" />
+    <None Include="WATERMARK_QUICK_REFERENCE.md" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="tmp_rovodev_PROJECT_UNDERSTANDING.md" />
+    <Content Include="tmp_rovodev_LAB_SYSTEM_REPORT.md" />
+    <Content Include="tmp_rovodev_LAB_ORDERED_TESTS_FEATURE.md" />
+    <Content Include="tmp_rovodev_LAB_FIX_APPLIED.md" />
+    <Content Include="tmp_rovodev_SUCCESS_SUMMARY.md" />
+    <Content Include="COMPREHENSIVE_PROJECT_REPORT.md" />
+    <Content Include="MEDICINE_MANAGEMENT_LOGIC_ANALYSIS.md" />
+    <Content Include="MEDICINE_UNIT_SYSTEM_ANALYSIS.md" />
+    <Content Include="PHARMACY_POS_BOX_SELLING_FIX.md" />
+    <Content Include="POS_ENHANCEMENTS_SUMMARY.md" />
+    <Content Include="MEDICINE_UNITS_SAMPLE_DATA.md" />
+    <Content Include="STEP_BY_STEP_UNIT_AND_MEDICINE_EXAMPLE.md" />
+    <Content Include="MEDICINE_EXAMPLES_INJECTION_IV_DROPS.md" />
+    <Content Include="MEDICINE_EXAMPLES_TOPICAL_SPECIAL.md" />
+    <Content Include="MEDICINE_EXAMPLES_POWDER_SPRAY_SPECIALIZED.md" />
+    <Content Include="MEDICINE_EXAMPLES_MASTER_INDEX.md" />
+    <Content Include="DOCUMENTATION_SUMMARY.md" />
+    <Content Include="COST_PRICE_FIX_SUMMARY.md" />
+    <Content Include="SALES_REPORT_ENHANCEMENT_SUMMARY.md" />
+    <Content Include="SALES_REPORT_FIX.md" />
+    <Content Include="TROUBLESHOOTING_ZERO_COST_SALES.md" />
+    <Content Include="SALES_REPORT_AUTOLOAD_AND_QUANTITY.md" />
+    <Content Include="ADD_BARCODE_COLUMN.sql" />
+    <Content Include="BARCODE_IMPLEMENTATION_GUIDE.md" />
+    <Content Include="POS_SEARCH_AND_BARCODE_COMPLETE.md" />
+    <Content Include="mobile_pos.aspx" />
+    <Content Include="MOBILE_POS_GUIDE.md" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4300</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:4300/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>https://localhost:44326/</IISAppRootUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

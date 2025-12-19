@@ -1,0 +1,279 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="print_lab_revenue.aspx.cs" Inherits="juba_hospital.print_lab_revenue" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab Revenue Report - Print</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20mm;
+            background: white;
+            color: #000;
+        }
+
+        .print-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #333;
+        }
+
+        .print-header .logo {
+            max-width: 120px;
+            max-height: 120px;
+            margin-bottom: 15px;
+        }
+
+        .print-header h1 {
+            font-size: 32px;
+            color: #2c3e50;
+            margin: 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .print-header p {
+            color: #666;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        .print-header .report-title {
+            font-size: 22px;
+            color: #e74c3c;
+            font-weight: bold;
+            margin: 20px 0 10px;
+            text-transform: uppercase;
+        }
+
+        .report-info {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border: 1px solid #dee2e6;
+        }
+
+        .report-info p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .summary-boxes {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+            gap: 15px;
+        }
+
+        .summary-box {
+            flex: 1;
+            border: 2px solid #3DB2E9;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            background: #f0f8ff;
+        }
+
+        .summary-box h4 {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .summary-box .value {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+        }
+
+        thead {
+            background: #2c3e50;
+            color: white;
+        }
+
+        th {
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+            border: 1px solid #333;
+            font-size: 13px;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+            font-size: 12px;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tfoot td {
+            font-weight: bold;
+            background: #e3f2fd;
+            font-size: 14px;
+            padding: 15px 12px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            padding-top: 20px;
+            border-top: 2px solid #ddd;
+            color: #999;
+            font-size: 11px;
+        }
+
+        .watermark {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.05;
+            z-index: -1;
+        }
+
+        .watermark img {
+            width: 500px;
+            height: auto;
+        }
+
+        @media print {
+            body {
+                padding: 10mm;
+            }
+            
+            table {
+                page-break-inside: auto;
+            }
+            
+            tr {
+                page-break-inside: avoid;
+                page-break-after: auto;
+            }
+            
+            thead {
+                display: table-header-group;
+            }
+            
+            tfoot {
+                display: table-footer-group;
+            }
+        }
+
+        @page {
+            margin: 15mm;
+        }
+    </style>
+</head>
+<body>
+    <!-- Watermark -->
+    <div class="watermark">
+        <img src="assets/vafmadow.png" alt="Hospital Watermark" />
+    </div>
+
+    <!-- Print Header -->
+    <div class="print-header">
+        <img src="assets/vafmadow.png" alt="Hospital Logo" class="logo" />
+        <h1>JUBA CLINIC</h1>
+        <p>Mogadishu, Somalia</p>
+        <p>Tel: +252 XXX XXX XXX | Email: info@jubaclinic.com</p>
+        <div class="report-title">Laboratory Revenue Report</div>
+    </div>
+
+    <!-- Report Information -->
+    <div class="report-info">
+        <p><strong>Report Period:</strong> <asp:Literal ID="litDateRange" runat="server"></asp:Literal></p>
+        <p><strong>Generated On:</strong> <asp:Literal ID="litGeneratedDate" runat="server"></asp:Literal></p>
+        <p><strong>Generated By:</strong> <asp:Literal ID="litGeneratedBy" runat="server"></asp:Literal></p>
+    </div>
+
+    <!-- Summary Boxes -->
+    <div class="summary-boxes">
+        <div class="summary-box">
+            <h4>Total Revenue</h4>
+            <div class="value">$<asp:Literal ID="litTotalRevenue" runat="server">0.00</asp:Literal></div>
+        </div>
+        <div class="summary-box">
+            <h4>Total Paid</h4>
+            <div class="value">$<asp:Literal ID="litTotalPaid" runat="server">0.00</asp:Literal></div>
+        </div>
+        <div class="summary-box">
+            <h4>Total Unpaid</h4>
+            <div class="value">$<asp:Literal ID="litTotalUnpaid" runat="server">0.00</asp:Literal></div>
+        </div>
+        <div class="summary-box">
+            <h4>Total Charges</h4>
+            <div class="value"><asp:Literal ID="litTotalCharges" runat="server">0</asp:Literal></div>
+        </div>
+    </div>
+
+    <!-- Revenue Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Patient Name</th>
+                <th>Invoice</th>
+                <th>Test Name</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <asp:Repeater ID="rptLabCharges" runat="server">
+                <ItemTemplate>
+                    <tr>
+                        <td><%# Container.ItemIndex + 1 %></td>
+                        <td><%# Eval("patient_name") %></td>
+                        <td><%# Eval("invoice_number") %></td>
+                        <td><%# Eval("test_name") %></td>
+                        <td><%# Eval("charge_date", "{0:MMM dd, yyyy}") %></td>
+                        <td>$<%# Eval("amount", "{0:N2}") %></td>
+                        <td><%# Convert.ToBoolean(Eval("payment_status")) ? "Paid" : "Unpaid" %></td>
+                    </tr>
+                </ItemTemplate>
+            </asp:Repeater>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5" style="text-align: right;"><strong>TOTAL:</strong></td>
+                <td><strong>$<asp:Literal ID="litFooterTotal" runat="server">0.00</asp:Literal></strong></td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>This is a computer-generated report from Juba Clinic Hospital Management System</p>
+        <p>Printed on: <%= DateTime.Now.ToString("MMMM dd, yyyy hh:mm tt") %></p>
+    </div>
+    
+    <script>
+        // Auto-print after page loads (with small delay to ensure data is rendered)
+        window.onload = function() {
+            setTimeout(function() {
+                window.print();
+            }, 500);
+        };
+    </script>
+</body>
+</html>
