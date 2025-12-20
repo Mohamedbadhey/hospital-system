@@ -1,0 +1,2252 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\pharmacy.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\labtest.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\labtest.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\register.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\register.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|c:\\users\\hp\\pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assignmed.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\assignmed.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\completed_patients.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\completed_patients.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\hospital_settings.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\hospital_settings.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\hospital_settings.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\hospital_settings.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\outpatient_full_report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\outpatient_full_report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\outpatient_full_report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\outpatient_full_report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lap_operation.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\lap_operation.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assignmed.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\assignmed.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lap_operation.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\lap_operation.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\admin_dashbourd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\admin_dashbourd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\expired_medicines.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\expired_medicines.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\inpatient_full_report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\inpatient_full_report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\discharge_summary_print.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\discharge_summary_print.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\discharge_summary_print.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\discharge_summary_print.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\inpatient_full_report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\inpatient_full_report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor_inpatient.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\doctor_inpatient.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor_inpatient.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\doctor_inpatient.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medicine_sales_report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\medicine_sales_report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_lab_charges.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_lab_charges.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_lab_charges.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_lab_charges.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_patients.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_patients.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_patients.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_patients.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\registre_outpatients.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\registre_outpatients.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor_registre_outpatients.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\doctor_registre_outpatients.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor_registre_inpatients.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\doctor_registre_inpatients.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\final_datetime_status.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\final_datetime_status.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_patient_medications.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\pharmacy_patient_medications.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_patient_medications.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\pharmacy_patient_medications.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_bed_charges.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_bed_charges.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\doctor.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\doctor.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_pos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\pharmacy_pos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_pos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\pharmacy_pos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_waiting_list.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\lab_waiting_list.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assets\\img\\logog.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\assets\\img\\logog.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assets\\img\\lab.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\assets\\img\\lab.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assets\\img\\j.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\assets\\img\\j.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_completed_orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\lab_completed_orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_waiting_list.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\lab_waiting_list.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\completed_patients.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\completed_patients.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\low_stock.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\low_stock.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\xray.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\xray.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medicine_examples_topical_special.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\medicine_examples_topical_special.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medicine_management_logic_analysis.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\medicine_management_logic_analysis.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medicine_examples_master_index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\medicine_examples_master_index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\test_details.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\test_details.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\visit_summary_print.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\visit_summary_print.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\registre_inpatients.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\registre_inpatients.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_reference_guide.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\lab_reference_guide.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medicine_inventory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\medicine_inventory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\admin_inpatient.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\admin_inpatient.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_operation.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\patient_operation.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_operation.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\patient_operation.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\bedchargecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\bedchargecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_sales_reports.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\pharmacy_sales_reports.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\data_population_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\data_population_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medicine_units_guide_english.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\medicine_units_guide_english.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_medicine_units.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_medicine_units.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_medicine.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_medicine.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_comprehensive_report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\lab_comprehensive_report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_comprehensive_report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\lab_comprehensive_report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_comprehensive_report.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\lab_comprehensive_report.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\charge_history.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\charge_history.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\charge_history.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\charge_history.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\content\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\content\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assets\\css\\kaiadmin.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\assets\\css\\kaiadmin.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\labtest.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\labtest.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_invoice_print.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\patient_invoice_print.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\hospitalsettingshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\hospitalsettingshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\register.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\register.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_xray_charges.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_xray_charges.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_registre.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_registre.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_lab_test.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\take_lab_test.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\pharmacy_dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_registre.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_registre.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\operateadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\operateadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\operateadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\operateadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\addxrayuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\addxrayuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_patientsdoctor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_patientsdoctor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\waitingpatients.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\waitingpatients.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_in.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\patient_in.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_details.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\patient_details.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_amount.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\patient_amount.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\addlabuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\addlabuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_doctor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_doctor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\patient_report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_status.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\patient_status.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_xray.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\delete_xray.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_xray.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\delete_xray.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\xray_processed.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\xray_processed.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\xray_processed.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\xray_processed.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\waitingpatients.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\waitingpatients.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_xray_lab_test.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\take_xray_lab_test.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_xray_lab_test.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\take_xray_lab_test.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_xray.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\take_xray.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_xray.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\take_xray.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_lab_test.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\take_lab_test.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pending_xray.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\pending_xray.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pending_xray.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\pending_xray.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pending_lap.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\pending_lap.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pending_lap.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\pending_lap.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_status.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\patient_status.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\patient_report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_in.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\patient_in.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_details.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\patient_details.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_amount.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\patient_amount.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medication_report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\medication_report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medication_report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\medication_report.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lap_processed.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\lap_processed.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lap_processed.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\lap_processed.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_xray_images.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\delete_xray_images.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_medic.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\delete_medic.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_medic.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\delete_medic.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\dashbourd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\dashbourd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assingxray.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\assingxray.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assingxray.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\assingxray.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\admin_dashbourd.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\admin_dashbourd.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\addxrayuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\addxrayuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\addlabuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\addlabuser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_xray.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_xray.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_xray.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_xray.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_patientsdoctor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_patientsdoctor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_lab.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_lab.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_lab.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_lab.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_job_title.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_job_title.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_doctor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\add_doctor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\xray.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\xray.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_xray_images.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\delete_xray_images.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\homepage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{7B5DA687-2DDD-420F-BAEF-B081229BBD07}|juba_hospital\\juba_hospital.csproj|solutionrelative:juba_hospital\\homepage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "outpatient_full_report.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\outpatient_full_report.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\outpatient_full_report.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\outpatient_full_report.aspx",
+              "RelativeToolTip": "juba_hospital\\outpatient_full_report.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-19T15:35:24.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "assignmed.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assignmed.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\assignmed.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assignmed.aspx",
+              "RelativeToolTip": "juba_hospital\\assignmed.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-13T07:09:03.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "register.Master",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\register.Master",
+              "RelativeDocumentMoniker": "juba_hospital\\register.Master",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\register.Master",
+              "RelativeToolTip": "juba_hospital\\register.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-27T20:00:50.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Admin.Master",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Admin.Master",
+              "RelativeDocumentMoniker": "juba_hospital\\Admin.Master",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Admin.Master",
+              "RelativeToolTip": "juba_hospital\\Admin.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-20T10:46:35.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "labtest.Master",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\labtest.Master",
+              "RelativeDocumentMoniker": "juba_hospital\\labtest.Master",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\labtest.Master",
+              "RelativeToolTip": "juba_hospital\\labtest.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-06T04:02:48.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pharmacy.Master",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy.Master",
+              "RelativeDocumentMoniker": "juba_hospital\\pharmacy.Master",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy.Master",
+              "RelativeToolTip": "juba_hospital\\pharmacy.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-27T20:00:30.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "outpatient_full_report.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\outpatient_full_report.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\outpatient_full_report.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\outpatient_full_report.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\outpatient_full_report.aspx.cs",
+              "ViewState": "AgIAACABAAAAtG0R8akmwCsBAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T15:35:27.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "hospital_settings.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\hospital_settings.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\hospital_settings.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\hospital_settings.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\hospital_settings.aspx.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T18:38:23.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "completed_patients.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\completed_patients.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\completed_patients.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\completed_patients.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\completed_patients.aspx.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAkwNIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T20:04:31.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "hospital_settings.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\hospital_settings.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\hospital_settings.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\hospital_settings.aspx",
+              "RelativeToolTip": "juba_hospital\\hospital_settings.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-04T03:48:17.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "lap_operation.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lap_operation.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\lap_operation.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lap_operation.aspx",
+              "RelativeToolTip": "juba_hospital\\lap_operation.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-02T21:49:33.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "lap_operation.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lap_operation.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\lap_operation.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lap_operation.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\lap_operation.aspx.cs",
+              "ViewState": "AgIAAEoBAAAAAAAAAAAAAG4AAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T21:53:17.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "admin_dashbourd.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\admin_dashbourd.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\admin_dashbourd.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\admin_dashbourd.aspx",
+              "RelativeToolTip": "juba_hospital\\admin_dashbourd.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-09T12:47:59.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "assignmed.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assignmed.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\assignmed.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assignmed.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\assignmed.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T22:40:03.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "expired_medicines.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\expired_medicines.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\expired_medicines.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\expired_medicines.aspx",
+              "RelativeToolTip": "juba_hospital\\expired_medicines.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-17T09:16:26.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "inpatient_full_report.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\inpatient_full_report.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\inpatient_full_report.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\inpatient_full_report.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\inpatient_full_report.aspx.cs",
+              "ViewState": "AgIAAKECAAAAAAAAAADwv8QCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T21:04:14.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "discharge_summary_print.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\discharge_summary_print.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\discharge_summary_print.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\discharge_summary_print.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\discharge_summary_print.aspx.cs",
+              "ViewState": "AgIAAO0BAAAAAAAAAAA4wPsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:00:43.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "discharge_summary_print.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\discharge_summary_print.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\discharge_summary_print.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\discharge_summary_print.aspx",
+              "RelativeToolTip": "juba_hospital\\discharge_summary_print.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-18T06:04:24.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "inpatient_full_report.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\inpatient_full_report.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\inpatient_full_report.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\inpatient_full_report.aspx",
+              "RelativeToolTip": "juba_hospital\\inpatient_full_report.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-18T06:18:34.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "doctor_inpatient.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor_inpatient.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\doctor_inpatient.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor_inpatient.aspx",
+              "RelativeToolTip": "juba_hospital\\doctor_inpatient.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-16T15:19:25.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Web.config",
+              "RelativeDocumentMoniker": "juba_hospital\\Web.config",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Web.config",
+              "RelativeToolTip": "juba_hospital\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-22T12:30:57.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "doctor_inpatient.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor_inpatient.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\doctor_inpatient.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor_inpatient.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\doctor_inpatient.aspx.cs",
+              "ViewState": "AgIAAFoAAAAASpK04CQnwCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T20:00:10.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "medicine_sales_report.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medicine_sales_report.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\medicine_sales_report.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medicine_sales_report.aspx",
+              "RelativeToolTip": "juba_hospital\\medicine_sales_report.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-17T10:25:40.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "add_lab_charges.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_lab_charges.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\add_lab_charges.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_lab_charges.aspx",
+              "RelativeToolTip": "juba_hospital\\add_lab_charges.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-26T22:19:43.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "add_lab_charges.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_lab_charges.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\add_lab_charges.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_lab_charges.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\add_lab_charges.aspx.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAAAKsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T20:43:36.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Add_patients.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Add_patients.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\Add_patients.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Add_patients.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\Add_patients.aspx.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAD4v3MAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:54:54.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Add_patients.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Add_patients.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\Add_patients.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Add_patients.aspx",
+              "RelativeToolTip": "juba_hospital\\Add_patients.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-12T06:06:49.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "registre_outpatients.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\registre_outpatients.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\registre_outpatients.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\registre_outpatients.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\registre_outpatients.aspx.cs",
+              "ViewState": "AgIAAEMAAADA27ZtPc8uwFcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T21:44:12.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "doctor_registre_outpatients.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor_registre_outpatients.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\doctor_registre_outpatients.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor_registre_outpatients.aspx",
+              "RelativeToolTip": "juba_hospital\\doctor_registre_outpatients.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-13T21:42:47.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "doctor_registre_inpatients.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor_registre_inpatients.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\doctor_registre_inpatients.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor_registre_inpatients.aspx",
+              "RelativeToolTip": "juba_hospital\\doctor_registre_inpatients.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-13T21:42:45.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FINAL_DATETIME_STATUS.md",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\FINAL_DATETIME_STATUS.md",
+              "RelativeDocumentMoniker": "juba_hospital\\FINAL_DATETIME_STATUS.md",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\FINAL_DATETIME_STATUS.md",
+              "RelativeToolTip": "juba_hospital\\FINAL_DATETIME_STATUS.md",
+              "ViewState": "AgIAABIAAAAASpK2/xcYwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-13T15:54:56.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "pharmacy_patient_medications.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_patient_medications.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\pharmacy_patient_medications.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_patient_medications.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\pharmacy_patient_medications.aspx.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAAANkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T15:56:48.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "add_bed_charges.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_bed_charges.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\add_bed_charges.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_bed_charges.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\add_bed_charges.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T15:54:11.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "pharmacy_patient_medications.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_patient_medications.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\pharmacy_patient_medications.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_patient_medications.aspx",
+              "RelativeToolTip": "juba_hospital\\pharmacy_patient_medications.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-08T21:28:01.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "doctor.Master",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor.Master",
+              "RelativeDocumentMoniker": "juba_hospital\\doctor.Master",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor.Master",
+              "RelativeToolTip": "juba_hospital\\doctor.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-02T19:41:23.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "doctor.Master.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor.Master.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\doctor.Master.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\doctor.Master.cs",
+              "RelativeToolTip": "juba_hospital\\doctor.Master.cs",
+              "ViewState": "AgIAABYAAACgbdv62VcuwCAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T17:06:35.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\login.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\login.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\login.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\login.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T14:40:08.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "login.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\login.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\login.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\login.aspx",
+              "RelativeToolTip": "juba_hospital\\login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-12T09:01:57.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "pharmacy_pos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_pos.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\pharmacy_pos.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_pos.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\pharmacy_pos.aspx.cs",
+              "ViewState": "AgIAADYCAAAAAAAAAAAAwEgCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T20:28:08.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "pharmacy_pos.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_pos.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\pharmacy_pos.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_pos.aspx",
+              "RelativeToolTip": "juba_hospital\\pharmacy_pos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-28T13:16:10.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "lab_waiting_list.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_waiting_list.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\lab_waiting_list.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_waiting_list.aspx",
+              "RelativeToolTip": "juba_hospital\\lab_waiting_list.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-17T14:24:08.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "lab_waiting_list.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_waiting_list.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\lab_waiting_list.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_waiting_list.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\lab_waiting_list.aspx.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T05:32:12.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "lab_completed_orders.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_completed_orders.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\lab_completed_orders.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_completed_orders.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\lab_completed_orders.aspx.cs",
+              "ViewState": "AgIAAMACAAAAocZC4D8NwMYCAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T19:47:11.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "j.png",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assets\\img\\j.png",
+              "RelativeDocumentMoniker": "juba_hospital\\assets\\img\\j.png",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assets\\img\\j.png",
+              "RelativeToolTip": "juba_hospital\\assets\\img\\j.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-12-11T22:02:57.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "lab.png",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assets\\img\\lab.png",
+              "RelativeDocumentMoniker": "juba_hospital\\assets\\img\\lab.png",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assets\\img\\lab.png",
+              "RelativeToolTip": "juba_hospital\\assets\\img\\lab.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-12-11T22:03:02.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "logog.png",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assets\\img\\logog.png",
+              "RelativeDocumentMoniker": "juba_hospital\\assets\\img\\logog.png",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assets\\img\\logog.png",
+              "RelativeToolTip": "juba_hospital\\assets\\img\\logog.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-12-11T22:03:05.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "completed_patients.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\completed_patients.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\completed_patients.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\completed_patients.aspx",
+              "RelativeToolTip": "juba_hospital\\completed_patients.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-09T15:49:12.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "low_stock.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\low_stock.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\low_stock.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\low_stock.aspx",
+              "RelativeToolTip": "juba_hospital\\low_stock.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-08T21:29:34.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "xray.Master",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\xray.Master",
+              "RelativeDocumentMoniker": "juba_hospital\\xray.Master",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\xray.Master",
+              "RelativeToolTip": "juba_hospital\\xray.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-17T14:35:31.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "MEDICINE_EXAMPLES_TOPICAL_SPECIAL.md",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\MEDICINE_EXAMPLES_TOPICAL_SPECIAL.md",
+              "RelativeDocumentMoniker": "juba_hospital\\MEDICINE_EXAMPLES_TOPICAL_SPECIAL.md",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\MEDICINE_EXAMPLES_TOPICAL_SPECIAL.md",
+              "RelativeToolTip": "juba_hospital\\MEDICINE_EXAMPLES_TOPICAL_SPECIAL.md",
+              "ViewState": "AgIAAEEAAAAAAACSPqABwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-06T12:10:35.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "MEDICINE_MANAGEMENT_LOGIC_ANALYSIS.md",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\MEDICINE_MANAGEMENT_LOGIC_ANALYSIS.md",
+              "RelativeDocumentMoniker": "juba_hospital\\MEDICINE_MANAGEMENT_LOGIC_ANALYSIS.md",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\MEDICINE_MANAGEMENT_LOGIC_ANALYSIS.md",
+              "RelativeToolTip": "juba_hospital\\MEDICINE_MANAGEMENT_LOGIC_ANALYSIS.md",
+              "ViewState": "AgIAAFUAAAAAAADqCSgswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-06T12:10:27.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "MEDICINE_EXAMPLES_MASTER_INDEX.md",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\MEDICINE_EXAMPLES_MASTER_INDEX.md",
+              "RelativeDocumentMoniker": "juba_hospital\\MEDICINE_EXAMPLES_MASTER_INDEX.md",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\MEDICINE_EXAMPLES_MASTER_INDEX.md",
+              "RelativeToolTip": "juba_hospital\\MEDICINE_EXAMPLES_MASTER_INDEX.md",
+              "ViewState": "AgIAAPAAAAAAAEC26EIuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-06T12:08:59.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "test_details.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\test_details.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\test_details.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\test_details.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\test_details.aspx.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAmwPMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T18:28:48.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "visit_summary_print.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\visit_summary_print.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\visit_summary_print.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\visit_summary_print.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\visit_summary_print.aspx.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA6wDUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T04:13:10.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "lab_reference_guide.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_reference_guide.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\lab_reference_guide.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_reference_guide.aspx",
+              "RelativeToolTip": "juba_hospital\\lab_reference_guide.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-30T21:20:34.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "registre_inpatients.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\registre_inpatients.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\registre_inpatients.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\registre_inpatients.aspx",
+              "RelativeToolTip": "juba_hospital\\registre_inpatients.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-02T05:13:09.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Patient_Operation.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Patient_Operation.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\Patient_Operation.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Patient_Operation.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\Patient_Operation.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T10:39:22.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "medicine_inventory.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medicine_inventory.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\medicine_inventory.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medicine_inventory.aspx",
+              "RelativeToolTip": "juba_hospital\\medicine_inventory.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-28T15:40:00.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "admin_inpatient.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\admin_inpatient.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\admin_inpatient.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\admin_inpatient.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\admin_inpatient.aspx.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAiwG0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T10:49:57.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Patient_Operation.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Patient_Operation.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\Patient_Operation.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Patient_Operation.aspx",
+              "RelativeToolTip": "juba_hospital\\Patient_Operation.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-21T21:03:42.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "BedChargeCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\BedChargeCalculator.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\BedChargeCalculator.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\BedChargeCalculator.cs",
+              "RelativeToolTip": "juba_hospital\\BedChargeCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T21:31:54.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "pharmacy_sales_reports.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_sales_reports.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\pharmacy_sales_reports.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_sales_reports.aspx",
+              "RelativeToolTip": "juba_hospital\\pharmacy_sales_reports.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-28T21:56:18.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "DATA_POPULATION_GUIDE.md",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\DATA_POPULATION_GUIDE.md",
+              "RelativeDocumentMoniker": "juba_hospital\\DATA_POPULATION_GUIDE.md",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\DATA_POPULATION_GUIDE.md",
+              "RelativeToolTip": "juba_hospital\\DATA_POPULATION_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-11-28T21:53:22.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "MEDICINE_UNITS_GUIDE_ENGLISH.md",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\MEDICINE_UNITS_GUIDE_ENGLISH.md",
+              "RelativeDocumentMoniker": "juba_hospital\\MEDICINE_UNITS_GUIDE_ENGLISH.md",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\MEDICINE_UNITS_GUIDE_ENGLISH.md",
+              "RelativeToolTip": "juba_hospital\\MEDICINE_UNITS_GUIDE_ENGLISH.md",
+              "ViewState": "AgIAAB4CAAAAAAAAAAAcwCwCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-11-28T19:36:52.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "add_medicine.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_medicine.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\add_medicine.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_medicine.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\add_medicine.aspx.cs",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAAAAYBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T12:29:46.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "add_medicine_units.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_medicine_units.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\add_medicine_units.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_medicine_units.aspx",
+              "RelativeToolTip": "juba_hospital\\add_medicine_units.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-28T12:24:24.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "lab_comprehensive_report.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_comprehensive_report.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\lab_comprehensive_report.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_comprehensive_report.aspx",
+              "RelativeToolTip": "juba_hospital\\lab_comprehensive_report.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-27T22:08:42.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "lab_comprehensive_report.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_comprehensive_report.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\lab_comprehensive_report.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_comprehensive_report.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\lab_comprehensive_report.aspx.cs",
+              "ViewState": "AgIAAEsBAAAAAAAAAAA9wFYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T22:08:35.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "lab_comprehensive_report.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_comprehensive_report.aspx.designer.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\lab_comprehensive_report.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lab_comprehensive_report.aspx.designer.cs",
+              "RelativeToolTip": "juba_hospital\\lab_comprehensive_report.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T22:09:12.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "charge_history.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\charge_history.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\charge_history.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\charge_history.aspx",
+              "RelativeToolTip": "juba_hospital\\charge_history.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-27T20:53:32.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "charge_history.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\charge_history.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\charge_history.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\charge_history.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\charge_history.aspx.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAA0wNoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T20:54:01.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "responsive.css",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Content\\responsive.css",
+              "RelativeDocumentMoniker": "juba_hospital\\Content\\responsive.css",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Content\\responsive.css",
+              "RelativeToolTip": "juba_hospital\\Content\\responsive.css",
+              "ViewState": "AgIAACcAAAAAAAAAAAAhwC8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-27T19:39:17.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "labtest.Master.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\labtest.Master.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\labtest.Master.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\labtest.Master.cs",
+              "RelativeToolTip": "juba_hospital\\labtest.Master.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T12:19:19.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "kaiadmin.min.css",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assets\\css\\kaiadmin.min.css",
+              "RelativeDocumentMoniker": "juba_hospital\\assets\\css\\kaiadmin.min.css",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assets\\css\\kaiadmin.min.css",
+              "RelativeToolTip": "juba_hospital\\assets\\css\\kaiadmin.min.css",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFUAAACPPQMAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-29T18:10:00.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "patient_invoice_print.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_invoice_print.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\patient_invoice_print.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_invoice_print.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\patient_invoice_print.aspx.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAowPIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:27:44.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Admin.Master.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Admin.Master.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\Admin.Master.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Admin.Master.cs",
+              "RelativeToolTip": "juba_hospital\\Admin.Master.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T08:51:07.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "HospitalSettingsHelper.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\HospitalSettingsHelper.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\HospitalSettingsHelper.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\HospitalSettingsHelper.cs",
+              "RelativeToolTip": "juba_hospital\\HospitalSettingsHelper.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAA6wJYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:18:09.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "juba_hospital\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:12:38.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "juba_hospital\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:12:21.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "register.Master.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\register.Master.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\register.Master.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\register.Master.cs",
+              "RelativeToolTip": "juba_hospital\\register.Master.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwCAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T08:47:37.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "add_xray_charges.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_xray_charges.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\add_xray_charges.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_xray_charges.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\add_xray_charges.aspx.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAmwGYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T20:43:20Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "pharmacy_dashboard.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_dashboard.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\pharmacy_dashboard.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pharmacy_dashboard.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\pharmacy_dashboard.aspx.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T21:44:35.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "add_registre.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_registre.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\add_registre.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_registre.aspx",
+              "RelativeToolTip": "juba_hospital\\add_registre.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-07T17:59:26.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "take_lab_test.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_lab_test.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\take_lab_test.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_lab_test.aspx",
+              "RelativeToolTip": "juba_hospital\\take_lab_test.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-10T20:06:24.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "add_registre.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_registre.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\add_registre.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_registre.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\add_registre.aspx.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T18:03:47.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "operateadmin.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\operateadmin.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\operateadmin.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\operateadmin.aspx",
+              "RelativeToolTip": "juba_hospital\\operateadmin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-24T09:19:19.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "operateadmin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\operateadmin.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\operateadmin.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\operateadmin.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\operateadmin.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswCwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:22:56.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "addxrayuser.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\addxrayuser.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\addxrayuser.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\addxrayuser.aspx",
+              "RelativeToolTip": "juba_hospital\\addxrayuser.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-12T07:55:44.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "add_patientsdoctor.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_patientsdoctor.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\add_patientsdoctor.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_patientsdoctor.aspx",
+              "RelativeToolTip": "juba_hospital\\add_patientsdoctor.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-12T06:08:39.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "waitingpatients.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\waitingpatients.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\waitingpatients.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\waitingpatients.aspx",
+              "RelativeToolTip": "juba_hospital\\waitingpatients.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-08T11:22:02.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "patient_in.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_in.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\patient_in.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_in.aspx",
+              "RelativeToolTip": "juba_hospital\\patient_in.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-07T18:55:05.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Patient_details.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Patient_details.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\Patient_details.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Patient_details.aspx",
+              "RelativeToolTip": "juba_hospital\\Patient_details.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-07T18:23:28.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "patient_amount.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_amount.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\patient_amount.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_amount.aspx",
+              "RelativeToolTip": "juba_hospital\\patient_amount.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-20T10:15:55.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "addlabuser.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\addlabuser.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\addlabuser.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\addlabuser.aspx",
+              "RelativeToolTip": "juba_hospital\\addlabuser.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-12T08:05:25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "add_doctor.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_doctor.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\add_doctor.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_doctor.aspx",
+              "RelativeToolTip": "juba_hospital\\add_doctor.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-11T22:42:33.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "patient_report.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_report.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\patient_report.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_report.aspx",
+              "RelativeToolTip": "juba_hospital\\patient_report.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-09T12:13:19.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "patient_status.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_status.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\patient_status.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_status.aspx",
+              "RelativeToolTip": "juba_hospital\\patient_status.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-09T20:16:58.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "delete_xray.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_xray.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\delete_xray.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_xray.aspx",
+              "RelativeToolTip": "juba_hospital\\delete_xray.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-11T21:53:50.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "delete_xray.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_xray.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\delete_xray.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_xray.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\delete_xray.aspx.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAkwG0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T21:55:17.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "xray_processed.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\xray_processed.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\xray_processed.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\xray_processed.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\xray_processed.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T21:07:22.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "waitingpatients.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\waitingpatients.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\waitingpatients.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\waitingpatients.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\waitingpatients.aspx.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwIEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T16:00:04.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "xray_processed.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\xray_processed.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\xray_processed.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\xray_processed.aspx",
+              "RelativeToolTip": "juba_hospital\\xray_processed.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-07T16:38:36.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "take_xray_lab_test.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_xray_lab_test.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\take_xray_lab_test.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_xray_lab_test.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\take_xray_lab_test.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T21:06:12.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "take_xray.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_xray.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\take_xray.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_xray.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\take_xray.aspx.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwJ8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T12:28:39.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "take_xray.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_xray.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\take_xray.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_xray.aspx",
+              "RelativeToolTip": "juba_hospital\\take_xray.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-10T20:07:09.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "take_lab_test.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_lab_test.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\take_lab_test.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_lab_test.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\take_lab_test.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T16:48:27.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "pending_xray.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pending_xray.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\pending_xray.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pending_xray.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\pending_xray.aspx.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T19:54:01.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "take_xray_lab_test.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_xray_lab_test.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\take_xray_lab_test.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\take_xray_lab_test.aspx",
+              "RelativeToolTip": "juba_hospital\\take_xray_lab_test.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-12T08:31:52.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "pending_xray.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pending_xray.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\pending_xray.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pending_xray.aspx",
+              "RelativeToolTip": "juba_hospital\\pending_xray.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-21T21:05:25.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "pending_lap.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pending_lap.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\pending_lap.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pending_lap.aspx",
+              "RelativeToolTip": "juba_hospital\\pending_lap.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-02T19:12:24.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "patient_status.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_status.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\patient_status.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_status.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\patient_status.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T20:21:35.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "patient_report.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_report.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\patient_report.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_report.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\patient_report.aspx.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T12:16:07.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "pending_lap.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pending_lap.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\pending_lap.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\pending_lap.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\pending_lap.aspx.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T19:13:16.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "Patient_details.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Patient_details.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\Patient_details.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Patient_details.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\Patient_details.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T18:23:31.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "patient_amount.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_amount.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\patient_amount.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_amount.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\patient_amount.aspx.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwD4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T10:34:26.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "patient_in.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_in.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\patient_in.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\patient_in.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\patient_in.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T20:29:39.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "medication_report.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medication_report.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\medication_report.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medication_report.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\medication_report.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwEAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T12:26:42.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "medication_report.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medication_report.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\medication_report.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\medication_report.aspx",
+              "RelativeToolTip": "juba_hospital\\medication_report.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-21T21:02:45.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "lap_processed.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lap_processed.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\lap_processed.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lap_processed.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\lap_processed.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T19:19:46.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "lap_processed.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lap_processed.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\lap_processed.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\lap_processed.aspx",
+              "RelativeToolTip": "juba_hospital\\lap_processed.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-02T19:19:04.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "delete_xray_images.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_xray_images.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\delete_xray_images.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_xray_images.aspx",
+              "RelativeToolTip": "juba_hospital\\delete_xray_images.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-11T22:13:11.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "delete_medic.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_medic.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\delete_medic.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_medic.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\delete_medic.aspx.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T14:25:20.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "delete_medic.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_medic.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\delete_medic.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_medic.aspx",
+              "RelativeToolTip": "juba_hospital\\delete_medic.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-09T14:21:51.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "Dashbourd.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Dashbourd.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\Dashbourd.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\Dashbourd.aspx",
+              "RelativeToolTip": "juba_hospital\\Dashbourd.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-21T20:58:59.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "assingxray.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assingxray.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\assingxray.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assingxray.aspx",
+              "RelativeToolTip": "juba_hospital\\assingxray.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-09T22:01:29.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "admin_dashbourd.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\admin_dashbourd.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\admin_dashbourd.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\admin_dashbourd.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\admin_dashbourd.aspx.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwDQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T12:57:05.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "assingxray.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assingxray.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\assingxray.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\assingxray.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\assingxray.aspx.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAkwBUAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T12:07:07.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "addxrayuser.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\addxrayuser.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\addxrayuser.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\addxrayuser.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\addxrayuser.aspx.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T07:57:36.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "addlabuser.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\addlabuser.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\addlabuser.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\addlabuser.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\addlabuser.aspx.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAswJcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T08:05:53.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 129,
+              "Title": "add_xray.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_xray.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\add_xray.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_xray.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\add_xray.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:46.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 131,
+              "Title": "add_patientsdoctor.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_patientsdoctor.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\add_patientsdoctor.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_patientsdoctor.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\add_patientsdoctor.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:11.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 132,
+              "Title": "add_lab.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_lab.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\add_lab.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_lab.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\add_lab.aspx.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T18:15:16.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "add_xray.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_xray.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\add_xray.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_xray.aspx",
+              "RelativeToolTip": "juba_hospital\\add_xray.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-20T10:04:33.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 133,
+              "Title": "add_lab.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_lab.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\add_lab.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_lab.aspx",
+              "RelativeToolTip": "juba_hospital\\add_lab.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-04T18:56:09.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 134,
+              "Title": "add_job_title.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_job_title.aspx",
+              "RelativeDocumentMoniker": "juba_hospital\\add_job_title.aspx",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_job_title.aspx",
+              "RelativeToolTip": "juba_hospital\\add_job_title.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-08T11:22:38.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 135,
+              "Title": "add_doctor.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_doctor.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\add_doctor.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\add_doctor.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\add_doctor.aspx.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAswBIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T11:38:05.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 136,
+              "Title": "xray.Master.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\xray.Master.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\xray.Master.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\xray.Master.cs",
+              "RelativeToolTip": "juba_hospital\\xray.Master.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAIBZwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T08:44:47.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 137,
+              "Title": "delete_xray_images.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_xray_images.aspx.cs",
+              "RelativeDocumentMoniker": "juba_hospital\\delete_xray_images.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\delete_xray_images.aspx.cs",
+              "RelativeToolTip": "juba_hospital\\delete_xray_images.aspx.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAIBZwHkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T22:14:01.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 138,
+              "Title": "homepage.master",
+              "DocumentMoniker": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\homepage.master",
+              "RelativeDocumentMoniker": "juba_hospital\\homepage.master",
+              "ToolTip": "C:\\Users\\hp\\Pictures\\jubba_clinic-main\\jubba_clinic-main\\jubba_clinic-main\\juba_hospital\\juba_hospital\\homepage.master",
+              "RelativeToolTip": "juba_hospital\\homepage.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-04T09:20:22.325Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
